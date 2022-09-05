@@ -1,0 +1,50 @@
+body {
+    background-color: #CFD8DC;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+/* This is the score area which is update when a user wins a round */
+.score-area {
+   font-size: 1.4em;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    width: 60vw;
+    margin: 0 auto;
+    justify-content: space-around;
+    
+}
+
+#computer-score {
+    color: red;
+}
+
+#player-score {
+    color: green;
+}
+
+/* This is the section where the choice section where it shows and 
+   image of both player and computer choices */
+.choice {
+    display: flex;
+    margin-top: 10%;
+    justify-content: center;
+    height: 30vh;
+    
+}
+
+.choice > p {
+    position: relative;
+    bottom: 20%;
+    left: 15%;
+}
+
+.choice > img {
+    width: 20vw;
+    height: 20vh;  
+    
+}
