@@ -1,15 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Athiti&display=swap');
+
 body {
     background-color: #e4e4e5;
+    font-family: Allerta Stencil, sans-serif;
 }
 
 h1 {
     text-align: center;
     margin-bottom: 4%;
+    
 }
 
 /* This is the score area which is update when a user wins a round */
 .score-area {
-   font-size: 1.4em;
+    font-size: 1.4em;
     display: flex;
     justify-content: center;
     width: 60vw;
@@ -57,25 +61,32 @@ h1 {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;   
-    
 }
 
-.choice > p {
-    position: relative;
-    bottom: 20%;
-    left: 15%;
-}
-
+/*                                      this is where we uploaded to in gitpod */
 .choice > img {
     width: 20vw;
     height: 20vh;  
-    
 }
 
-h2 {
-    margin-top: 20vh;
-    text-align: center;
+#userpic {
+    border-right: 1px solid #c9c7c7;
+    padding-right: 15%;
 }
+
+.choose-hand-text {
+    font-size: 1.5em;
+    margin: 10% auto 0;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    border-top: 1px solid black;
+    width: 60vw;
+    
+   
+}
+
+
 
 /* This is the button section where the user selects their hand */
 .btn-container {
@@ -91,14 +102,14 @@ button > img {
 }
 
 button {
-    background-color: #CFD8DC;
+    background-color: #e4e4e5;
     border: none;
     transition: 100ms;
 }
 
 button:hover {
     cursor: pointer;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 h3 {
@@ -127,6 +138,14 @@ h3 {
     button > img {
         width: 15vw;
         height: 10vh;   
+    }
+
+    #game-players {
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        
     }
     
 
