@@ -9,33 +9,33 @@
 </head>
 <body>
     <h1>Lets Play a Game of Rock, Paper, Scissors</h1>
-
+ <!-- This is the htmnl for the score area at the top oof the page below the h1 -->
     <div class="score-area">
-        <p class="scores">Player Score <span id="player-score">0</span></p>
-        <p class="scores">Winner of Round:<span id="result">---</span></p>
-        <p class="scores">Computer Score <span id="computer-score">0</span></p>
+      <p class="scores">Player Score <span id="user-result">0</span></p>
+      <p class="scores">Computer Score <span id="computer-result">0</span></p>
     </div>
+<!-- Here is the markup for the winner of each round -->
+    <div class="line-one"></div>
+    <p class="winner-of-round">Winner of Round:<span id="result"></span></p>
 
+    <div id="game-players">
+      <p> Player choice <span id="playerchoice"></span></p>
+      <p>Computer choice <span id="computerchoice"></span></p>
+    </div>
     <div class="choice">
-        <p>Player choice <span id="playerchoice"></span></p>
-         <img id="userpic" src="assets/images/questionmark.png" alt="">
-        <p>Computer choice <span id="computerchoice"></span></p>
-        <img id="comppic" src="assets/images/questionmark.png" alt="">
-     </div>
+      <img id="userpic" src="assets/images/questionmark.png" alt="">
+      <img id="comppic" src="assets/images/questionmark.png" alt="">
+    </div>
 
     <h2>Choose Your Hand</h2>
-     <div class="btn-container">
-        <button class="rock" data-type="rock"><img src="assets/images/rock.png" alt="rock"></button>
-        <button class="paper" data-type="paper"><img src="assets/images/paper.png" alt="paper"></button>
-        <button class="scissors" data-type="scissors"><img src="assets/images/scissors.png" alt="scissors"></button>
+    <div class="btn-container">
+      <button class="rock" data-type="rock"><img src="assets/images/rock.png" alt="rock"></button>
+      <button class="paper" data-type="paper"><img src="assets/images/paper.png" alt="paper"></button>
+      <button class="scissors" data-type="scissors"><img src="assets/images/scissors.png" alt="scissors"></button>
     </div>
-
-   
-
     <h3>First to 5 wins</h3>
 
 
-
-    <script src="assets/js/script.js"></script>
+ <script src="assets/js/script.js"></script>
 </body>
 </html>

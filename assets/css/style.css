@@ -1,10 +1,10 @@
 body {
-    background-color: #CFD8DC;
+    background-color: #e4e4e5;
 }
 
 h1 {
     text-align: center;
-    margin-bottom: 10vh;
+    margin-bottom: 4%;
 }
 
 /* This is the score area which is update when a user wins a round */
@@ -12,28 +12,51 @@ h1 {
    font-size: 1.4em;
     display: flex;
     justify-content: center;
-    border: 2px solid black;
     width: 60vw;
     margin: 0 auto;
-    justify-content: space-around;
-    
+    justify-content:space-evenly;
 }
 
-#computer-score {
+.line-one {
+    border-bottom: 1px solid #c9c7c7;
+    width: 40%;
+    margin: 0 auto;   
+}
+
+.winner-of-round {
+    font-size: 1.4em;
+    width: 80%;
+    text-align: center;
+    margin: 4% auto;
+    border-bottom: 1px solid #2b2a2a;
+    padding-bottom: 4%;
+}
+
+
+#computer-result {
     color: red;
 }
 
-#player-score {
+#user-result {
     color: green;
 }
 
+
 /* This is the section where the choice section where it shows and 
    image of both player and computer choices */
-.choice {
+
+#game-players {
+    width: 50%;
+    margin: 0 auto;
     display: flex;
-    margin-top: 10%;
-    justify-content: center;
-    height: 30vh;
+    justify-content: space-between;
+}
+
+.choice {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;   
     
 }
 
