@@ -40,9 +40,9 @@ document.addEventListener('DOMContentLoaded', () => {
                   }
   
                   
-                  console.log(pick);
+                
                       
-                }
+                };
               
               
               computerSelection();
@@ -90,14 +90,11 @@ document.addEventListener('DOMContentLoaded', () => {
         computerResult.innerHTML = computerScore;
         userResult.innerHTML =  playerScore;
   
-    };
-  
-  
-  
+    }
   
   
     /**
-     *
+     *This is a function to update player and computer hand image
      */
     function updateDOM(){
   
@@ -136,7 +133,6 @@ document.addEventListener('DOMContentLoaded', () => {
         messageDiv.querySelector('p').innerText = 'Commiserations, you lost!!!';
       }
   
-      //if (computerScore === 2) console.log('You are complete and utter shite.');
       
     }
   
@@ -167,5 +163,5 @@ document.addEventListener('DOMContentLoaded', () => {
   
     resetBtn.addEventListener('click', resetGame);
   
-  })
+  });
   
