@@ -44,14 +44,14 @@ function playGame() {
                   
             }
           
-          
         });
           
     }
+}
 
 /**
 * This is a function to check who has won the game 
-*/
+*/ 
  function checkWinner() {
     
         if(computerHand === 'rock' && userHand === 'scissors'){
@@ -86,8 +86,10 @@ function playGame() {
   
     };
 
-
-  function updateDOM(){
+  /**
+   * This is a function that updates the players and computers hand cjhoice image
+   */
+ function updateDOM(){
 
         if (userHand === 'rock') {
           playerChoice.innerHTML = 'Rock';
@@ -112,8 +114,23 @@ function playGame() {
         }
   }
 
-
+ function checkScore() {
+    
+    if (playerScore === 5) {
+      messageDiv.classList.add('show');
+      messageDiv.querySelector('p').innerText = 'Congratulations you won!!!';
     }
+    
+    if (computerScore === 5) {
+      messageDiv.classList.add('show');
+      messageDiv.querySelector('p').innerText = 'Commiserations, you lost!!!';
+    }
+
+    //if (computerScore === 2) console.log('You are complete and utter shite.');
+    
+  }
+
+
 
 
 
