@@ -93,8 +93,11 @@ document.addEventListener('DOMContentLoaded', () => {
     };
   
   
+  
+  
+  
     /**
-     * This is a function that updates player and computer choice image
+     *
      */
     function updateDOM(){
   
@@ -141,10 +144,28 @@ document.addEventListener('DOMContentLoaded', () => {
      * Reset our game back to default values.
      */
   
-     playGame();
+    function resetGame() {
+      playerScore = 0;
+      computerScore = 0;
+      userResult.innerHTML = '0';
+      computerResult.innerHTML = '0';
+      userImage.src = 'assets/images/questionmark.png';
+      computerImage.src = 'assets/images/questionmark.png';
+      playerChoice.innerHTML = '';
+      computerChoice.innerHTML = '';
+      roundResult.innerHTML = '';
+      computerHand = '';
+      userHand = '';
+      messageDiv.classList.remove('show');
+      //window.location.reload();
+    }
+  
+  
+  
+  
+    playGame();
+  
+    resetBtn.addEventListener('click', resetGame);
   
   })
   
-  
-  
-    
