@@ -48,11 +48,72 @@ function playGame() {
         });
           
     }
+
+/**
+* This is a function to check who has won the game 
+*/
+ function checkWinner() {
+    
+        if(computerHand === 'rock' && userHand === 'scissors'){
+          roundResult.innerHTML = 'Computer';
+          computerScore++;
+  
+        } else if (computerHand === 'paper' && userHand === 'rock'){
+          roundResult.innerHTML = 'Computer';
+          computerScore++;
+        
+        }else if(computerHand === 'scissors' && userHand === 'paper'){
+          roundResult.innerHTML = 'Computer';
+          computerScore++;
+        
+        }else if(userHand === 'rock' && computerHand === 'scissors'){
+          roundResult.innerHTML = 'Player';
+          playerScore++;
+        
+        }else if(userHand === 'paper' && computerHand === 'rock'){
+          roundResult.innerHTML = 'Player';
+          playerScore++;
+        
+        } else if(userHand === 'scissors' && computerHand === 'paper'){
+          roundResult.innerHTML = 'Player';
+          playerScore++;
+        
+        } else {
+          roundResult.innerHTML = 'Tie';
+        }
+        computerResult.innerHTML = computerScore;
+        userResult.innerHTML =  playerScore;
+  
+    };
+
+
+  function updateDOM(){
+
+        if (userHand === 'rock') {
+          playerChoice.innerHTML = 'Rock';
+          userImage.src = 'assets/images/rock.png';  
+        } else if (userHand === 'paper'){
+          playerChoice.innerHTML = 'Paper';
+          userImage.src = 'assets/images/paper.png';
+        } else {
+          playerChoice.innerHTML = 'Scissors';
+          userImage.src = 'assets/images/scissors.png';
+        }
+        
+        if (computerHand === 'rock' ) {
+          computerChoice.innerHTML = 'Rock';
+          computerImage.src = 'assets/images/rock.png';
+        } else if (computerHand === 'paper') {
+          computerChoice.innerHTML = 'Paper';
+          computerImage.src = 'assets/images/paper.png';
+        } else {
+          computerChoice.innerHTML = 'Scissors';
+          computerImage.src = 'assets/images/scissors.png';
+        }
+  }
+
+
     }
-
-
-
-
 
 
 
