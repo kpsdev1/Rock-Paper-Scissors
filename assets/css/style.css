@@ -86,8 +86,6 @@ h1 {
    
 }
 
-
-
 /* This is the button section where the user selects their hand */
 .btn-container {
     display: flex;
@@ -141,11 +139,7 @@ h3 {
     }
 
     #game-players {
-        width: 70%;
-        margin: 0 auto;
-        display: flex;
-        justify-content: space-between;
-        
+        width: 70%; 
     }
     
 
