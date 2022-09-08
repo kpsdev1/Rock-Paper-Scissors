@@ -7,7 +7,7 @@ body {
 
 h1 {
     text-align: center;
-    margin-bottom: 4%;
+    margin-bottom: 2%;
     
 }
 
@@ -33,7 +33,7 @@ h1 {
     text-align: center;
     margin: 4% auto;
     border-bottom: 1px solid #2b2a2a;
-    padding-bottom: 4%;
+    padding-bottom: 2%;
 }
 
 
@@ -50,11 +50,14 @@ h1 {
    image of both player and computer choices */
 
 #game-players {
-    width: 50%;
+    width: 55%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    
 }
+
+
 
 .choice {
     width: 60%;
@@ -76,15 +79,16 @@ h1 {
 
 .choose-hand-text {
     font-size: 1.5em;
-    margin: 10% auto 0;
+    margin: 5% auto 0;
     padding-top: 2%;
     padding-bottom: 2%;
     text-align: center;
     border-top: 1px solid black;
     width: 60vw;
     
-   
 }
+
+
 
 /* This is the button section where the user selects their hand */
 .btn-container {
@@ -114,6 +118,62 @@ h3 {
     text-align: center;
 }
 
+
+#winnerMessage {
+    display: none;
+}
+
+#winnerMessage.show {
+    display: block;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    border: 10px solid #BEA5F3;
+    border-radius: 20%;
+    background-color: #F9F5FF;
+    color: black;
+    width: 60%;
+    height: 25%;
+    font-size: 1.5em;
+}
+
+#winnerMessage > p {
+ display: flex;
+ justify-content: center;
+ padding-top: 4%;
+}
+
+#winnerMessage > button {
+    border-radius: 25%;
+    padding: 2%;
+    background-color: #D4C2FC;
+    margin-bottom: 10px;
+    display: flex;
+    margin: 0 auto;
+}
+
+#winnerMessage > button:hover {
+    cursor: pointer;
+    border: 2px solid #C6B2F1;
+    
+}
+
+@media screen and (max-width: 1280px){
+    #winnerMessage.show {
+        width: 80%;
+        font-size: 1.2em;
+    }
+
+    #winnerMessage > p {
+        padding-top: 8%;
+       }
+
+}
+
+
 /* This is the media queries section for smaller screens */
 @media screen and (max-width: 700px){
     .score-area {
@@ -125,12 +185,24 @@ h3 {
         width: 80vw;
     }
 
+    #winnerMessage.show {
+        width: 80%;
+        font-size: 1em;
+        height: 20%;
+    }
+
+
 }
 
-@media screen and (max-width: 390px){
+@media screen and (max-width: 420px){
     .score-area {
         width: 95vw;
         font-size: small;
+    }
+
+    .choice {
+        width: 70%;
+         
     }
 
     button > img {
@@ -139,7 +211,12 @@ h3 {
     }
 
     #game-players {
-        width: 70%; 
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        font-size: .7em;
+        
     }
     
 
@@ -148,7 +225,19 @@ h3 {
 @media screen and (max-width: 360px){
     .score-area {
         width: 100%;
+        font-size: small;
+    }
+
+    #game-players {
+        
         font-size: x-small;
+        
+    }
+
+    .choose-hand-text {
+        font-size: 1.2em;
+        
+        
     }
 
 }

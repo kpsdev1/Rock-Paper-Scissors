@@ -16,33 +16,32 @@
     </div>
     <!-- Here is the markup for the winner of each round -->
     <div class="line-one"></div>
-    <p class="winner-of-round">Winner of Round: <span id="result"></span></p>
-    
-    <div id="game-players">
-        <p> Player choice: <span id="playerchoice"></span></p>
-        <p>Computer choice: <span id="computerchoice"></span></p>
-    </div>
-    <div class="choice">
-         <img id="userpic" src="assets/images/questionmark.png" alt="">
-        <img id="comppic" src="assets/images/questionmark.png" alt="">
-     </div>
-
-     
-    <p class="choose-hand-text">Choose Your Hand</p>
-     <div class="btn-container">
-        <button class="rock" data-type="rock"><img src="assets/images/rock.png" alt="rock"></button>
-        <button class="paper" data-type="paper"><img src="assets/images/paper.png" alt="paper"></button>
-        <button class="scissors" data-type="scissors"><img src="assets/images/scissors.png" alt="scissors"></button>
-    </div>
-
+        <p class="winner-of-round">Winner of Round: <span id="result"></span></p>
+    <!-- Here is the winner message div which will hold the winner message onec the game is over -->
     <div id="winnerMessage">
         <p></p>
         <button>Restart Game</button>
     </div>
-
+    <!-- This is to display the users score -->
+    <div id="game-players">
+        <p> Player choice: <span id="playerchoice"></span></p>
+        <p>Computer choice: <span id="computerchoice"></span></p>
+    </div>
+    <!-- this shows the player and computer hand images and is set to question marks, but will be updated by JS -->
+    <div class="choice">
+         <img id="userpic" src="assets/images/questionmark.png" alt="">
+         <img id="comppic" src="assets/images/questionmark.png" alt="">
+     </div>
+     <!-- This is the button selection where the user cl;icks a button to select their hand -->
+     <p class="choose-hand-text">Choose Your Hand</p>
+     <div class="btn-container">
+          <button class="rock" data-type="rock"><img src="assets/images/rock.png" alt="rock"></button>
+          <button class="paper" data-type="paper"><img src="assets/images/paper.png" alt="paper"></button>
+          <button class="scissors" data-type="scissors"><img src="assets/images/scissors.png" alt="scissors"></button>
+    </div>
 
     <h3>First to 5 Wins</h3>
-
+  
     <script src="assets/js/script.js"></script>
 </body>
 </html>
