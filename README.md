@@ -47,9 +47,10 @@ The color scheme that was used for this game was a light grey color for the back
 - Beneath this is the game score area, this keeps count of the user and the computers score.
 - The Users score is is displayed in green which is positive, each time the player wins the round the score is incremented by 1. The higher the green score the better.
 - The Copmputers score is diaplyed in red which in this context is negative as each time the computer wins the sciore is also incremented by 1.
-- The game is the first up to rech the score of 5 wins.
+- The first to reach the score of 5 wins.
+- Below the score area is a light horizontal line that spans 40% of the page and is centered.
 
-![Logo and Score area image](readme-docs/images/Logo-score.png)     
+![Logo and Score area image](readme-docs/images/Logo-score.PNG)     
 
 ### Round Winner
 - This section is right below the score counting area and displays the winner of the round or if both the player and computer chose the same hand it will say **Tie**
@@ -64,7 +65,7 @@ The color scheme that was used for this game was a light grey color for the back
 - The player and computer hand choice images are seperated by a light colored vertical line.
 - Below the images is a black horizontal line that spans 60vw and is centered.
 
-![hand selectuion images](readme-docs/images/hand-choice.png) 
+![hand selection images](readme-docs/images/hand-choice.png) 
 
 ### Choose your hand section
 - In the center of this section there is text saying **"Choose Your Hand"**, which indicates to the player to chose their hand either Rock, Paper or Scissors.
@@ -72,7 +73,8 @@ The color scheme that was used for this game was a light grey color for the back
 - When the user select his choice this will also make the computer chose their hand through a random generator.
 - The hand that the users selects will show the same image in the Player and computer choice setion above.
 - Below this is a h3 element that displays the text **"First to 5 wins"** so that the user knows that the first one to reach 5 wins the game(the score can be seen at the top of the page).
-
+  
+ ![This is where the user chooses their hand](readme-docs/images/user-selection.png)  
 
 ## Future Features:
 The futuure features that I would Like to include are:
