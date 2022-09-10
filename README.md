@@ -31,17 +31,29 @@ Below are the wire frames fro the Rock, Paper, Scissors game for both destop and
 ![This is a wireframe for mobile](readme-docs/wireframes/Rock-paper-scissors-mobile.PNG)
 
 ### Typography
-The font that was used this game was **Allerta Stencil**.
+The font that was used for this game was **Allerta Stencil**.
 
 ### Color Scheme
-The color scheme for this game was a light grey color for the background and the text is black, which really makes the text and images stand out. The users score dsiplays in green and the computers score displays in red which in this context would show the user that the green score is positive and red is negatative.
+The color scheme that was used for this game was a light grey color for the background and the text is black, which really makes the text and images stand out. The users score dsiplays in green and the computers score displays in red which in this context would show the user that the green score is positive and red is negatative.
   
-![Color schem used for the Rock Paper Scissors Game](readme-docs/images/color-scheme.png)  
+![Color scheme used for the Rock Paper Scissors Game](readme-docs/images/color-scheme.png)  
 
 
 ## Features:
 
+
+### Logo and Score
+- At the top of the page is the Logo that tells the first time user what the game is by saying **Lets Play a Game of Rock, Paper, Scissors**
+- Beneath this is the game score area, this keeps count of the user and the computers score.
+- The Users score is is displayed in green which is positive, each time the player wins the round the score is incremented by 1. The higher the green score the better.
+- The Copmputers score is diaplyed in red which in this context is negative as each time the computer wins the sciore is also incremented by 1.
+- The game is the first up to rech the score of 5 wins.
+
 ## Future Features:
+The futuure features that I would Like to include are:
+- Before starting the Game a prompt for the user to enter their name.
+- Allow the user to select what the game is up to eg: 5, 10, 15.
+- The choice to play a multiplayer game with another person online.
 
 ## Technologies Used:
 
