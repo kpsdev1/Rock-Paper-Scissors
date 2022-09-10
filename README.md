@@ -19,17 +19,37 @@ This is a simple Rock, Paper, Scissors game which I built with HTML, CSS and Jav
 
 ## UX Design:
 
-## Features
+### Wireframes
+Below are the wire frames fro the Rock, Paper, Scissors game for both destop and mobile devices.  
+  
+ **Desktop Design**   
 
-## Future Features
+![This is a wireframe for desktop](readme-docs/wireframes/Rock-paper-scissors.PNG)
+  
+ **Mobile Design**   
+   
+![This is a wireframe for mobile](readme-docs/wireframes/Rock-paper-scissors-mobile.PNG)
 
-## Technologies Used
+### Typography
+The font that was used this game was **Allerta Stencil**.
 
-## Testing
+### Color Scheme
+The color scheme for this game was a light grey color for the background and the text is black, which really makes the text and images stand out. The users score dsiplays in green and the computers score displays in red which in this context would show the user that the green score is positive and red is negatative.
+  
+![Color schem used for the Rock Paper Scissors Game](readme-docs/images/color-scheme.png)  
 
-## Deployment
 
-## Credits
+## Features:
 
-## Acknowledgements
+## Future Features:
+
+## Technologies Used:
+
+## Testing:
+
+## Deployment:
+
+## Credits:
+
+## Acknowledgements:
 
