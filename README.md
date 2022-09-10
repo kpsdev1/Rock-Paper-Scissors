@@ -84,6 +84,12 @@ The futuure features that I would Like to include are:
 
 
 ## Technologies Used:
+The technologies that were used to create the game were:
+- Balsamiq was used to create the wireframes.
+- HTML was used for the mark up.
+- CSS was used to style the game
+- JavaScript was used to make the game interactive.
+
 
 ## Testing:
 
