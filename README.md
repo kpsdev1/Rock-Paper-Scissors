@@ -41,7 +41,6 @@ The color scheme that was used for this game was a light grey color for the back
 
 ## Features:
 
-
 ### Logo and Score
 - At the top of the page is the Logo that tells the first time user what the game is by saying **"Lets Play a Game of Rock, Paper, Scissors"**
 - Beneath this is the game score area, this keeps count of the user and the computers score.
@@ -94,6 +93,13 @@ The technologies that were used to create the game were:
 ## Testing:
 
 ## Deployment:
+The site is deployed using github pages. The following steps were used to deploy the site to Github pages:
+- First make sure you are signed into Github.
+- In github on the sites repositiory, click on the **Settings** button.
+- On lefthand side menu. under **code and automation section** select **Pages**.
+- Under **Branch** section, change the dropdown that says **none** to **main**.
+- Then click **Save** and refresh the page, please note that it can take a few minutes for the site to be live.
+- - -
 
 ## Credits:
 
