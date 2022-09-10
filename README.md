@@ -66,6 +66,14 @@ The color scheme that was used for this game was a light grey color for the back
 
 ![hand selectuion images](readme-docs/images/hand-choice.png) 
 
+### Choose your hand section
+- In the center of this section there is text saying **"Choose Your Hand"**, which indicates to the player to chose their hand either Rock, Paper or Scissors.
+- Each hand is a button with a image for each choice, when hovered over the size of the image gets larger.
+- When the user select his choice this will also make the computer chose their hand through a random generator.
+- The hand that the users selects will show the same image in the Player and computer choice setion above.
+- Below this is a h3 element that displays the text **"First to 5 wins"** so that the user knows that the first one to reach 5 wins the game(the score can be seen at the top of the page).
+
+
 ## Future Features:
 The futuure features that I would Like to include are:
 - Before starting the Game a prompt for the user to enter their name.
