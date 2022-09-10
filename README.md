@@ -43,11 +43,28 @@ The color scheme that was used for this game was a light grey color for the back
 
 
 ### Logo and Score
-- At the top of the page is the Logo that tells the first time user what the game is by saying **Lets Play a Game of Rock, Paper, Scissors**
+- At the top of the page is the Logo that tells the first time user what the game is by saying **"Lets Play a Game of Rock, Paper, Scissors"**
 - Beneath this is the game score area, this keeps count of the user and the computers score.
 - The Users score is is displayed in green which is positive, each time the player wins the round the score is incremented by 1. The higher the green score the better.
 - The Copmputers score is diaplyed in red which in this context is negative as each time the computer wins the sciore is also incremented by 1.
 - The game is the first up to rech the score of 5 wins.
+
+![Logo and Score area image](readme-docs/images/Logo-score.png)     
+
+### Round Winner
+- This section is right below the score counting area and displays the winner of the round or if both the player and computer chose the same hand it will say **Tie**
+- Below it is a horizontal line that spans 80% of the page and is centered. 
+  
+![winner of the round image](readme-docs/images/winner-of-round.png) 
+
+### Player and Computer hand choice image section
+- This is the section that displays an image of the hand choosen by both the player and computer.
+- Once the user selects a hand it will display the matching image choice on the left hand side, at the same time a randon choice will also be chosen for the computer and the matching image will be displayed on the right side.
+- Above the image it will say  both the Player and computers choice.
+- The player and computer hand choice images are seperated by a light colored vertical line.
+- Below the images is a black horizontal line that spans 60vw and is centered.
+
+![hand selectuion images](readme-docs/images/hand-choice.png) 
 
 ## Future Features:
 The futuure features that I would Like to include are:
