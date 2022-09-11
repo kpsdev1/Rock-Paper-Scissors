@@ -124,7 +124,10 @@ In order to make sure the Game was fully responsive and compatible with differen
 
 **JavaScript**
 
-
+### Lighthouse.
+- I used Lighthouse in Chrome Dev tools to generate a report that tests the sites Performance, Accessibility, Best practices and SEO.  
+  
+![Lighthouse image](readme-docs/images/lighthouse.PNG) 
 
 
 ## Deployment:
