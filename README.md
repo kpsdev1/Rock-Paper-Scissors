@@ -91,6 +91,30 @@ The technologies that were used to create the game were:
 
 
 ## Testing:
+In order to make sure the Game was fully responsive and compatible with different devices and browsers, I tested the site on multiple browsers and devices. I also put the code throught Validators to make sure there were no major errors.
+
+### Devices the Game was tested on
+- IPhone 11.
+- Samsung S8.
+- Samsung A52.
+- IPhone 7.
+- Ipad 7.
+- Dell Inspiron.
+- Amazon Fire.
+- Dell S27s22DC monitor.
+
+### Browsers the Game was tested on
+- Google chrome
+- Mozilla Firefox
+- Microsoft Edge
+- Safari
+
+### Validator Testing
+**HTML**
+- The index page of the Game was put through the W3C Validator to check for any HTML syntax errors. The W3C Validator con be found [here](https://validator.w3.org/).
+- The result showed that there was no errors in the HTML markup as you can see from the screenshot of the results below.
+  
+ ![HTML Validator testing image of the site](readme-docs/images/html-error-check.PNG) 
 
 ## Deployment:
 The site is deployed using github pages. The following steps were used to deploy the site to Github pages:
@@ -107,9 +131,13 @@ The site is deployed using github pages. The following steps were used to deploy
 - Code with Ania Kubow is a great resource for anyone who wants to create Rock, Paper, Scissors with JS as she takes you through 3 different ways to go about creating it, from beginner to advanced. This is a great resource as it gives you an idea on how to go about creating the game you want. The Youtube video can be found [here](https://www.youtube.com/watch?v=RwFeg0cEZvQ).
 - Geeksforgeeks.org have a great write up on how to create a Rock, Paper, Scissors game, this is  very good read as it goes through all the steps in details and after reading it will definitely help you with the creation of your game. The article can be found [here](https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/).
 - [Google Fonts ](https://fonts.google.com/) for the Typography used on the site.
-- w3Schools was great help for syntax that I could not remember and also for looking up new syntax, as their sandbox displays exactly what it does and allow syou to edit it to suit your needs.
+- w3Schools was great help for syntax that I could not remember and also for looking up new syntax, as their sandbox displays exactly what it does and allow syou to edit it to suit your needs. The website can be found [here](https://www.w3schools.com/).
 
 ### Media
-- All the images for this site were taken from clipartmax website, The website can be found [here.]https://www.clipartmax.com/)  
+- All the images for this site were taken from clipartmax website, The website can be found [here](https://www.clipartmax.com/).
+
 ## Acknowledgements:
+- I would like to thank my mentor Adegbenga Adeye for all help throughout the project and for being really positive about the course.
+- I would like to thank Code institutes Slack Communtiy as this helped me so much when I got stuck on part of my project and also with course challenges.
+- I would also like to thank our chort facilitators Kenan Wright and Kasia Bogucka, for answering any course related questions I asked and for porviding us with a weekly study schedule.
 
