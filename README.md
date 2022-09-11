@@ -103,8 +103,8 @@ The site is deployed using github pages. The following steps were used to deploy
 
 ## Credits:
 ### Content
-- Web Dev Simplified video on youtube was a big help in how to structure the game and alos helped with the way I structured it. The Youtube video can be found [here](https://www.youtube.com/watch?v=1yS-JV4fWqY).
-- Code with Ania Kubow is a great resource for anyone who wants to create Rock Paper Scissors with JS as she takes you through 3 different ways to go about creating it, from beginner to advance. This is a great resource as it gives you an idea on how to go about creating the game you want. The Youtube video can be found [here](https://www.youtube.com/watch?v=RwFeg0cEZvQ).
+- Web Dev Simplified video on youtube was a big help in how to structure the game. The Youtube video can be found [here](https://www.youtube.com/watch?v=1yS-JV4fWqY).
+- Code with Ania Kubow is a great resource for anyone who wants to create Rock, Paper, Scissors with JS as she takes you through 3 different ways to go about creating it, from beginner to advanced. This is a great resource as it gives you an idea on how to go about creating the game you want. The Youtube video can be found [here](https://www.youtube.com/watch?v=RwFeg0cEZvQ).
 - Geeksforgeeks.org have a great write up on how to create a Rock, Paper, Scissors game, this is  very good read as it goes through all the steps in details and after reading it will definitely help you with the creation of your game. The article can be found [here](https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/).
 - [Google Fonts ](https://fonts.google.com/) for the Typography used on the site.
 - w3Schools was great help for syntax that I could not remember and also for looking up new syntax, as their sandbox displays exactly what it does and allow syou to edit it to suit your needs.
