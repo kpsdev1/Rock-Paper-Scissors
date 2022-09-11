@@ -116,6 +116,17 @@ In order to make sure the Game was fully responsive and compatible with differen
   
  ![HTML Validator testing image of the site](readme-docs/images/html-error-check.PNG) 
 
+ **CSS**
+ - The CSS stylesheet was put through the W3C Jiqsaw validator to see if there was any errors. The W3C Jiqsaw validator can be found [here](https://jigsaw.w3.org/css-validator/).
+ - As you can see from the screenshot of the result below there were no errors.
+   
+![CSS Validator testing image](readme-docs/images/css-error-check.PNG) 
+
+**JavaScript**
+
+
+
+
 ## Deployment:
 The site is deployed using github pages. The following steps were used to deploy the site to Github pages:
 - First make sure you are signed into Github.
