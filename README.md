@@ -5,7 +5,7 @@ This is a simple Rock, Paper, Scissors game which I built with HTML, CSS and Jav
  ![Am i responsive image of the homepage](readme-docs/images/am-i-responsive.png) 
 
  [Click Here To Visit Live Site](https://kpsdev1.github.io/Rock-Paper-Scissors/)  
-
+- - -
 
 ## Table of Contents
 1. [UX Design](#ux-design)
@@ -28,7 +28,10 @@ Below are the wire frames fro the Rock, Paper, Scissors game for both destop and
   
  **Mobile Design**   
    
-![This is a wireframe for mobile](readme-docs/wireframes/Rock-paper-scissors-mobile.PNG)
+![This is a wireframe for mobile](readme-docs/wireframes/Rock-paper-scissors-mobile.PNG)  
+
+[Back to the top](#rock-paper-scissors)
+- - -
 
 ### Typography
 The font that was used for this game was **Allerta Stencil**.
@@ -74,6 +77,9 @@ The color scheme that was used for this game was a light grey color for the back
 - Below this is a h3 element that displays the text **"First to 5 wins"** so that the user knows that the first one to reach 5 wins the game(the score can be seen at the top of the page).
   
  ![This is where the user chooses their hand](readme-docs/images/user-selection.png)  
+  
+ [Back to the top](#rock-paper-scissors)
+- - -
 
 ## Future Features:
 The futuure features that I would Like to include are:
@@ -115,6 +121,9 @@ In order to make sure the Game was fully responsive and compatible with differen
 - The result showed that there was no errors in the HTML markup as you can see from the screenshot of the results below.
   
  ![HTML Validator testing image of the site](readme-docs/images/html-error-check.PNG) 
+
+[Back to the top](#rock-paper-scissors)
+- - -
 
  **CSS**
  - The CSS stylesheet was put through the W3C Jiqsaw validator to see if there was any errors. The W3C Jiqsaw validator can be found [here](https://jigsaw.w3.org/css-validator/).
