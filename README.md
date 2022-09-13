@@ -89,6 +89,8 @@ The color scheme that was used for this game was a light grey color for the back
 - - -
 
 ## Demo
+Below is a demo video of the game working and also number 1 - 10 are each of the hands that were chosen by the player and the copmputer.
+
 1. Player chose Rock and Computer chose Paper, so the computer scored a point. Score is 0 - 1 to the computer.
 2. Player chose Paper and Computer chose Rock, so the Player got a point. Score is now 1 - 1 which makes it even.
 3. Player chose Scissors and Computer chose Rock, so the computer scored a point. Score is now 1 - 2 to the computer.
@@ -98,8 +100,9 @@ The color scheme that was used for this game was a light grey color for the back
 7. Both the Player and Computer chose Scissors, so that hand was a tie and no-one scored a point.
 8. Both the Player and Computer chose Paper, so that hand was a tie and no-one scored a point.
 9. Player chose Scissors and computer chose Rock, so the computer scores a point. That brings the score to 1- 5 which means the computer wins the game.
-10. The restart button is then clicked to restart the game.
-https://user-images.githubusercontent.com/108360638/189951692-e71a608a-c1fa-4a51-a1e1-873a0f42d51f.mp4
+10. The restart button is then clicked to restart the game.  
+
+<video src = "https://user-images.githubusercontent.com/108360638/189951692-e71a608a-c1fa-4a51-a1e1-873a0f42d51f.mp4" controls></video>
 
 
 ## Future Features:
