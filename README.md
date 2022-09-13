@@ -19,6 +19,13 @@ This is a simple Rock, Paper, Scissors game which I built with HTML, CSS and Jav
 
 ## UX Design:
 
+### User Stories
+- As a user, I want to be able to figure out what the game is.
+- As a user, I want to be easily be able to understand how to play the game.
+- As a user, I want to know what  score the game is up too.
+- As a user, I want to be able to easily navigate through the game.
+- As a user, I want the score to be easily visible so I can clearly see who is winning.
+
 ### Wireframes
 Below are the wire frames fro the Rock, Paper, Scissors game for both destop and mobile devices.  
   
@@ -80,6 +87,10 @@ The color scheme that was used for this game was a light grey color for the back
   
  [Back to the top](#rock-paper-scissors)
 - - -
+
+## Demo
+
+![video](readme-docs/videos/demo.mp4) 
 
 ## Future Features:
 The futuure features that I would Like to include are:
