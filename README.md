@@ -90,7 +90,11 @@ The color scheme that was used for this game was a light grey color for the back
 
 ## Demo
 
-![video](readme-docs/videos/demo.mp4) 
+
+
+https://user-images.githubusercontent.com/108360638/189951692-e71a608a-c1fa-4a51-a1e1-873a0f42d51f.mp4
+
+
 
 ## Future Features:
 The futuure features that I would Like to include are:
