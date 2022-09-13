@@ -89,7 +89,7 @@ The color scheme that was used for this game was a light grey color for the back
 - - -
 
 ## Demo
-Below is a demo video of the game working and also number 1 - 10 are each of the hands that were chosen by the player and the copmputer.
+Below is a demo video of the game working and also numbered 1 - 10 are each of the hands that were chosen by the player and the copmputer.
 
 1. Player chose Rock and Computer chose Paper, so the computer scored a point. Score is 0 - 1 to the computer.
 2. Player chose Paper and Computer chose Rock, so the Player got a point. Score is now 1 - 1 which makes it even.
@@ -132,12 +132,18 @@ In order to make sure the Game was fully responsive and compatible with differen
 - Dell Inspiron.
 - Amazon Fire.
 - Dell S27s22DC monitor.
+- Lambdatest was used to test on
+   * Samsung S20
+   * OnePlus Nord N100
 
 ### Browsers the Game was tested on
 - Google chrome
 - Mozilla Firefox
 - Microsoft Edge
-- Safari
+- Lambdatest was used to test on
+   * Brave 
+   * Opera 
+   * Safari
 
 ### Validator Testing
 **HTML**
@@ -156,6 +162,10 @@ In order to make sure the Game was fully responsive and compatible with differen
 ![CSS Validator testing image](readme-docs/images/css-error-check.PNG) 
 
 **JavaScript**
+- The Javascript file was put through Jshint code validator to see if there were any errors. Jshuint can be found [here](https://jshint.com/)
+- The validator returned no errors and one warning for having the variables declared outside the for loop, from reading online on Stack Overflow this is a common enough warning and does not cause any issue.
+  
+![Javascript validator](readme-docs/images/jshint-checker.PNG)  
 
 ### Lighthouse.
 - I used Lighthouse in Chrome Dev tools to generate a report that tests the sites Performance, Accessibility, Best practices and SEO.  
