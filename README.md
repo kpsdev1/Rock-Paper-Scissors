@@ -10,12 +10,13 @@ This is a simple Rock, Paper, Scissors game which I built with HTML, CSS and Jav
 ## Table of Contents
 1. [UX Design](#ux-design)
 2. [Features](#features)
-3. [Future Features](#future-features)
-4. [Technologies Used](#technologies-used)
-5. [Testing](#testing)
-6. [Deployment](#deployment)
-7. [Credits](#credits)
-8. [Acknowledgements](#acknowledgements)
+3. [Demo](#Demo)
+4. [Future Features](#future-features)
+5. [Technologies Used](#technologies-used)
+6. [Testing](#testing)
+7. [Deployment](#deployment)
+8. [Credits](#credits)
+9. [Acknowledgements](#acknowledgements)
 
 ## UX Design:
 
