@@ -124,8 +124,8 @@ The technologies that were used to create the game were:
 ## Testing:
 In order to make sure the Game was fully responsive and compatible with different devices and browsers, I tested the site on multiple browsers and devices. I also put the code throught Validators to make sure there were no major errors.
 
-### Devices the Game was tested on
-**Screenshots were taken from each device**
+### Below is a list of devices that the Game was test on, with screenshots from each device.
+
 
 - IPhone 11.   
 
@@ -150,8 +150,7 @@ In order to make sure the Game was fully responsive and compatible with differen
    * Samsung S20
    * OnePlus Nord N100
 
-### Browsers the Game was tested on
-**Screenshots were taken from the browsers**
+### Below is a list of Browsers that the game was tested on, screenshots are also included.
 
 - Google chrome  
 
