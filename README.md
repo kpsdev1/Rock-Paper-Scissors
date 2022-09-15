@@ -124,31 +124,42 @@ The technologies that were used to create the game were:
 ## Testing:
 In order to make sure the Game was fully responsive and compatible with different devices and browsers, I tested the site on multiple browsers and devices. I also put the code throught Validators to make sure there were no major errors.
 
-### Devices the Game was tested on
-- IPhone 11.
-- Samsung S8.
-- Samsung A52.
-- IPhone 7.
-- Ipad 7.
+### Devices the Game was tested on(Screenshot were taken from each device)
+- IPhone 11.   
+
+ ![Ipone 11 test](readme-docs/images/iphone11.jpg) 
+
+- Samsung S8.  
+
+ ![Samsung S8 test](readme-docs/images/s8.jpg) 
+
+- IPhone 7.  
+
+ ![Iphone 7 test](readme-docs/images/iphone7.jpg) 
+
+- Ipad 7.  
+
+ ![chrome test](readme-docs/images/ipad7.jpg) 
+
 - Dell Inspiron.
 - Amazon Fire.
-- Dell S27s22DC monitor.
+
 - Lambdatest was used to test on
    * Samsung S20
    * OnePlus Nord N100
 
-### Browsers the Game was tested on
+### Browsers the Game was tested on(Screenshots were taken from the browsers)
 - Google chrome  
 
  ![chrome test](readme-docs/images/chrome.png)   
 
 - Mozilla Firefox
 
-![chrome test](readme-docs/images/firefox.png) 
+![FireFox test](readme-docs/images/firefox.png) 
 
 - Microsoft Edge
 
-![chrome test](readme-docs/images/edge.png) 
+![Edge test](readme-docs/images/edge.png) 
 
 - Lambdatest was used to test on
    * Brave 
