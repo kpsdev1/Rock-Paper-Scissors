@@ -193,6 +193,7 @@ h3 {
 }
 
 @media screen and (max-width: 420px){
+    
     .score-area {
         width: 95vw;
         font-size: small;

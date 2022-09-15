@@ -89,7 +89,7 @@ The color scheme that was used for this game was a light grey color for the back
  [Back to the top](#rock-paper-scissors)
 - - -
 
-## Demo
+## Demo:
 Below is a demo video of the game working and also numbered 1 - 10 are each of the hands that were chosen by the player and the copmputer.
 
 1. Player chose Rock and Computer chose Paper, so the computer scored a point. Score is 0 - 1 to the computer.
@@ -138,9 +138,18 @@ In order to make sure the Game was fully responsive and compatible with differen
    * OnePlus Nord N100
 
 ### Browsers the Game was tested on
-- Google chrome
+- Google chrome  
+
+ ![chrome test](readme-docs/images/chrome.png)   
+
 - Mozilla Firefox
+
+![chrome test](readme-docs/images/firefox.png) 
+
 - Microsoft Edge
+
+![chrome test](readme-docs/images/edge.png) 
+
 - Lambdatest was used to test on
    * Brave 
    * Opera 
