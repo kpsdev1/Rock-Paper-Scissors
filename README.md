@@ -143,7 +143,7 @@ In order to make sure the Game was fully responsive and compatible with differen
 
  ![chrome test](readme-docs/images/ipad7.jpg) 
 
-- Dell Inspiron.
+
 - Amazon Fire.
 
 - Lambdatest was used to test on

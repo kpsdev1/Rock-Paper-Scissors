@@ -13,6 +13,9 @@ document.addEventListener('DOMContentLoaded', () => {
 	let playerScore = 0;
 	let computerScore = 0;
 	let resetBtn = messageDiv.querySelector('button');
+	let startMsg = document.getElementById('start-message');
+	let btn = document.getElementById('button1')
+	startMsg.classList.add('show');
 
 	function playGame() {
 		let buttons = document.getElementsByTagName('button');
@@ -118,8 +121,9 @@ document.addEventListener('DOMContentLoaded', () => {
 		computerHand = '';
 		userHand = '';
 		messageDiv.classList.remove('show');
-		//window.location.reload();
+		startMsg.classList.remove('show');
 	}
 	playGame();
 	resetBtn.addEventListener('click', resetGame);
+	btn.addEventListener('click', resetGame);
 });

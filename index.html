@@ -1,47 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
+    <!-- Instructions on how to play the game -->
+ <div id="start-message">
+    <h2>How to Play</h2>
+    <p>Select your hand from the bottom of the page either Rock, Paper or Scissors. The symbols are Rock, Paper, Scissors in that order from left to right. When you choose
+       your hand the computer will simultaneously choose their hand. </p>
+    <p class="rules"> <b>Rules</b><br>
+         1. Rock beats Scissors. <br>
+         2. Paper Beats Rock. <br>
+         3. Scissors beats Paper. <br>
+         First to 5 wins the Game. <br>
+    </p>   
+    <p>  The players hand will be shown on the left while the computers hand will be shown on the right, before starting each will show a question mark. </p>
+    <button id="button1">Start Game</button>
+</div> 
     <h1>Lets Play a Game of Rock, Paper, Scissors</h1>
-   <!-- This is the htmnl for the score area at the top oof the page below the h1 -->
+    <!-- This is the htmnl for the score area at the top oof the page below the h1 -->
     <div class="score-area">
-        <p class="scores">Player Score: <span id="user-result">0</span></p>
-        <p class="scores">Computer Score: <span id="computer-result">0</span></p>
+      <p class="scores">Player Score: <span id="user-result">0</span>
+      </p>
+      <p class="scores">Computer Score: <span id="computer-result">0</span>
+      </p>
     </div>
     <!-- Here is the markup for the winner of each round -->
     <div class="line-one"></div>
-        <p class="winner-of-round">Winner of Round: <span id="result"></span></p>
+    <p class="winner-of-round">Winner of Round: <span id="result"></span>
+    </p>
     <!-- Here is the winner message div which will hold the winner message onec the game is over -->
     <div id="winnerMessage">
-        <p></p>
-        <button>Restart Game</button>
+      <p></p>
+      <button>Restart Game</button>
     </div>
     <!-- This is to display the users score -->
     <div id="game-players">
-        <p> Player choice: <span id="playerchoice"></span></p>
-        <p>Computer choice: <span id="computerchoice"></span></p>
+      <p> Player choice: <span id="playerchoice"></span>
+      </p>
+      <p>Computer choice: <span id="computerchoice"></span>
+      </p>
     </div>
     <!-- this shows the player and computer hand images and is set to question marks, but will be updated by JS -->
     <div class="choice">
-         <img id="userpic" src="assets/images/questionmark.png" alt="Users hand image">
-         <img id="comppic" src="assets/images/questionmark.png" alt="Computer hand image">
-     </div>
-     <!-- This is the button selection where the user cl;icks a button to select their hand -->
-     <p class="choose-hand-text">Choose Your Hand</p>
-     <div class="btn-container">
-          <button class="rock" data-type="rock"><img src="assets/images/rock.png" alt="rock"></button>
-          <button class="paper" data-type="paper"><img src="assets/images/paper.png" alt="paper"></button>
-          <button class="scissors" data-type="scissors"><img src="assets/images/scissors.png" alt="scissors"></button>
+      <img id="userpic" src="assets/images/questionmark.png" alt="Users hand image">
+      <img id="comppic" src="assets/images/questionmark.png" alt="Computer hand image">
     </div>
-
+    <!-- This is the button selection where the user cl;icks a button to select their hand -->
+    <p class="choose-hand-text">Choose Your Hand</p>
+    <div class="btn-container">
+      <button class="rock" data-type="rock">
+        <img src="assets/images/rock.png" alt="rock">
+      </button>
+      <button class="paper" data-type="paper">
+        <img src="assets/images/paper.png" alt="paper">
+      </button>
+      <button class="scissors" data-type="scissors">
+        <img src="assets/images/scissors.png" alt="scissors">
+      </button>
+    </div>
     <h3>First to 5 Wins</h3>
-  
     <script src="assets/js/script.js"></script>
-</body>
+  </body>
 </html>

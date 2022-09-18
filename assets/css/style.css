@@ -11,6 +11,58 @@ h1 {
     
 }
 
+/* style for game instructions that displays when the page loads */
+#start-message {
+    display: none;
+}
+
+#start-message.show {
+    margin-top: 4%;
+    font-family: Athiti, sans-serif;
+    display: block;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    border: 1px solid black;
+    background-color: #dedee4;
+    color: black;
+    width: 50%;
+    height: 80%;
+    font-size: 1.5em;
+   
+}
+
+#start-message > h2 {
+    margin-top: 4%;
+    text-align: center;
+    border-bottom: 1;
+}
+
+.rules {
+    text-align: center;
+}
+
+.rules > b {
+    text-decoration: underline;
+}
+
+#start-message > button {
+    border-radius: 5%;
+    padding: 2%;
+    margin-bottom: 10px;
+    background-color: #b8b8b9;
+    display: flex;
+    margin: 0 auto;
+}
+
+#start-message > button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
 /* This is the score area which is update when a user wins a round */
 .score-area {
     font-size: 1.4em;
@@ -170,6 +222,7 @@ h3 {
        }
 
 }
+
 
 
 /* This is the media queries section for smaller screens */
