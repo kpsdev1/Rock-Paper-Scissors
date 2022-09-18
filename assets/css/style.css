@@ -170,9 +170,8 @@ h3 {
   left: 0;
   right: 0;
   text-align: center;
-  border: 10px solid #bea5f3;
-  border-radius: 20%;
-  background-color: #f9f5ff;
+  border: 10px solid #578C4D;
+  background-color: #F6F9F5;
   color: black;
   width: 60%;
   height: 25%;
@@ -180,23 +179,19 @@ h3 {
 }
 
 #winnerMessage > p {
-  display: flex;
-  justify-content: center;
-  padding-top: 4%;
+  padding-top: 5%;
 }
 
 #winnerMessage > button {
-  border-radius: 25%;
-  padding: 2%;
-  background-color: #d4c2fc;
-  margin-bottom: 10px;
-  display: flex;
-  margin: 0 auto;
+    border-radius: 5%;
+    padding: 2%;
+    background-color: #578C4D;
+    margin: 0 auto;
+    color: white;
 }
 
 #winnerMessage > button:hover {
   cursor: pointer;
-  border: 2px solid #c6b2f1;
 }
 /* Media queries below here */
 /* Media query for larger screen */
@@ -237,6 +232,10 @@ h3 {
   #winnerMessage > p {
     padding-top: 8%;
   }
+
+  #winnerMessage > p {
+    padding-top: 5%;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -273,6 +272,10 @@ h3 {
     font-size: 1em;
     height: 20%;
   }
+
+  #winnerMessage > p {
+    padding-top: 10%;
+  }
 }
 
 @media screen and (max-width: 420px) {
@@ -303,6 +306,10 @@ h3 {
     justify-content: space-between;
     font-size: 0.7em;
   }
+
+  #winnerMessage > p {
+    padding-top: 12%;
+  }
 }
 
 @media screen and (max-width: 360px) {
@@ -323,5 +330,9 @@ h3 {
 
   .choose-hand-text {
     font-size: 1.2em;
+  }
+
+  #winnerMessage > p {
+    padding-top: 8%;
   }
 }
