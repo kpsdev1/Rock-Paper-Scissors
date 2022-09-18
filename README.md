@@ -187,7 +187,7 @@ In order to make sure the Game was fully responsive and compatible with differen
 
 **JavaScript**
 - The Javascript file was put through Jshint code validator to see if there were any errors. Jshuint can be found [here](https://jshint.com/)
-- The validator returned no errors and one warning for having the variables declared outside the for loop, from reading online on Stack Overflow this is a common enough warning and does not cause any issue.
+- The validator returned no errors and one warning for having the variables declared outside the for loop, from reading online on Stack Overflow this is a common enough warning and does not    cause any issue. I also showed the it to my mentor and he said this can be ignored as it is just a warning.
   
 ![Javascript validator](readme-docs/images/jshint-checker.PNG)  
 
