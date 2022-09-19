@@ -52,6 +52,14 @@ The color scheme that was used for this game was a light grey color for the back
 
 ## Features:
 
+### How to Play
+- The game instructions are displayed once the game loads and will be the first thing that the user sees.
+- Here the user will learn how to play the game and see the rules of Rock, Paper, Scissors.
+- When the user wants to play a game they can just click the **Start Game** button and this will allow them to start the game, when the **Start Game** button is hovered over the
+ button background color changes to black and the text changes to white.
+   
+ ![Instructions and rules](readme-docs/images/rules.png)       
+
 ### Logo and Score
 - At the top of the page is the Logo that tells the first time user what the game is by saying **"Lets Play a Game of Rock, Paper, Scissors"**
 - Beneath this is the game score area, this keeps count of the user and the computers score.
@@ -84,8 +92,19 @@ The color scheme that was used for this game was a light grey color for the back
 - The hand that the users selects will show the same image in the Player and computer choice setion above.
 - Below this is a h3 element that displays the text **"First to 5 wins"** so that the user knows that the first one to reach 5 wins the game(the score can be seen at the top of the page).
   
- ![This is where the user chooses their hand](readme-docs/images/user-selection.png)  
-  
+![This is where the user chooses their hand](readme-docs/images/user-selection.png)  
+
+ ### Winning Screen
+ - When either the player or the computer reach 5 the winning popup is displayed.
+ - It is displayed in the center of the screen and has a light background color, if the player wins it displays a green border(positive) and if the computer wins its displays a red border(negative).
+ - There is text that either congratulates the player or wishes them commiserations if they lose to the computer.
+ - Below this text is a **Restart Game** button that has a dark background color with white text.
+
+   
+![Player winning popup](readme-docs/images/winning-player.png)  
+
+![Computer winning popup](readme-docs/images/winning-computer.png)   
+
  [Back to the top](#rock-paper-scissors)
 - - -
 

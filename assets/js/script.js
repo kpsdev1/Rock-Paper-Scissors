@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', () => {
 			messageDiv.querySelector('p').innerText = 'Congratulations you won!!!';
 		}
 		if(computerScore === 5) {
-			messageDiv.classList.add('show');
+			messageDiv.classList.add('show','lose');
 			messageDiv.querySelector('p').innerText = 'Commiserations, you lost!!!';
 		}
 	}
@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		roundResult.innerHTML = '';
 		computerHand = '';
 		userHand = '';
-		messageDiv.classList.remove('show');
+		messageDiv.classList.remove('show','lose');
 		startMsg.classList.remove('show');
 	}
 	playGame();
