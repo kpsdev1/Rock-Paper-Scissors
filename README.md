@@ -45,7 +45,7 @@ Below are the wire frames fro the Rock, Paper, Scissors game for both destop and
 The font that was used for this game was **Allerta Stencil**.
 
 ### Color Scheme
-The color scheme that was used for this game was a light grey color for the background and the text is black, which really makes the text and images stand out. The users score dsiplays in green and the computers score displays in red which in this context would show the user that the green score is positive and red is negatative.
+The color scheme that was used for this game was a light grey color for the background and the text is black, which really makes the text and images stand out. The users score displays in green and the computers score displays in red which in this context would show the user that the green score is positive and red is negatative.
   
 ![Color scheme used for the Rock Paper Scissors Game](readme-docs/images/color-scheme.png)  
 
@@ -55,8 +55,8 @@ The color scheme that was used for this game was a light grey color for the back
 ### Logo and Score
 - At the top of the page is the Logo that tells the first time user what the game is by saying **"Lets Play a Game of Rock, Paper, Scissors"**
 - Beneath this is the game score area, this keeps count of the user and the computers score.
-- The Users score is is displayed in green which is positive, each time the player wins the round the score is incremented by 1. The higher the green score the better.
-- The Copmputers score is diaplyed in red which in this context is negative as each time the computer wins the sciore is also incremented by 1.
+- The users score is displayed in green which is positive, each time the player wins the round the score is incremented by 1. The higher the green score the better.
+- The Computers score is displayed in red which in this context is negative as each time the computer wins a round the score is also incremented by 1.
 - The first to reach the score of 5 wins.
 - Below the score area is a light horizontal line that spans 40% of the page and is centered.
 
