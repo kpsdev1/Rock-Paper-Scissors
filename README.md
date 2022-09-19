@@ -28,7 +28,7 @@ This is a simple Rock, Paper, Scissors game which I built with HTML, CSS and Jav
 - As a user, I want the score to be easily visible so I can clearly see who is winning.
 
 ### Wireframes
-Below are the wire frames fro the Rock, Paper, Scissors game for both destop and mobile devices.  
+Below are the wireframes for the Rock, Paper, Scissors game for both destop and mobile devices.  
   
  **Desktop Design**   
 
@@ -42,7 +42,8 @@ Below are the wire frames fro the Rock, Paper, Scissors game for both destop and
 - - -
 
 ### Typography
-The font that was used for this game was **Allerta Stencil**.
+The font that was used for this game was **Allerta Stencil**.  
+The font that was used for the readme was **Athiti**.
 
 ### Color Scheme
 The color scheme that was used for this game was a light grey color for the background and the text is black, which really makes the text and images stand out. The users score displays in green and the computers score displays in red which in this context would show the user that the green score is positive and red is negatative.
@@ -53,10 +54,10 @@ The color scheme that was used for this game was a light grey color for the back
 ## Features:
 
 ### How to Play
-- The game instructions are displayed once the game loads and will be the first thing that the user sees.
+- The game instructions are displayed once the game loads and it is the first thing that the user sees.
 - Here the user will learn how to play the game and see the rules of Rock, Paper, Scissors.
 - When the user wants to play a game they can just click the **Start Game** button and this will allow them to start the game, when the **Start Game** button is hovered over the
- button background color changes to black and the text changes to white.
+ button background color changes to black and the text to white.
    
  ![Instructions and rules](readme-docs/images/rules.png)       
 
@@ -77,9 +78,9 @@ The color scheme that was used for this game was a light grey color for the back
 ![winner of the round image](readme-docs/images/winner-of-round.png) 
 
 ### Player and Computer hand choice image section
-- This is the section that displays an image of the hand choosen by both the player and computer.
-- Once the user selects a hand it will display the matching image choice on the left hand side, at the same time a randon choice will also be chosen for the computer and the matching image will be displayed on the right side.
-- Above the image it will say  both the Player and computers choice.
+- This is the section that displays an image of the hand choosen by both the player and computer. Before the game starts both the users and computers hand are set to images of a question mark.
+- Once the user selects a hand it will display the matching image choice on the left hand side, at the same time a random choice will also be chosen for the computer and the matching image will be displayed on the right side.
+- Above the image it will say  both the player and computers choice.
 - The player and computer hand choice images are seperated by a light colored vertical line.
 - Below the images is a black horizontal line that spans 60vw and is centered.
 
@@ -88,8 +89,8 @@ The color scheme that was used for this game was a light grey color for the back
 ### Choose your hand section
 - In the center of this section there is text saying **"Choose Your Hand"**, which indicates to the player to chose their hand either Rock, Paper or Scissors.
 - Each hand is a button with a image for each choice, when hovered over the size of the image gets larger.
-- When the user select his choice this will also make the computer chose their hand through a random generator.
-- The hand that the users selects will show the same image in the Player and computer choice setion above.
+- When the user selects their choice this will also make the computer chose their hand through a random generator.
+- The hand that the user selects will show the corresponding image for the players hand above. 
 - Below this is a h3 element that displays the text **"First to 5 wins"** so that the user knows that the first one to reach 5 wins the game(the score can be seen at the top of the page).
   
 ![This is where the user chooses their hand](readme-docs/images/user-selection.png)  
@@ -97,7 +98,7 @@ The color scheme that was used for this game was a light grey color for the back
  ### Winning Screen
  - When either the player or the computer reach 5 the winning popup is displayed.
  - It is displayed in the center of the screen and has a light background color, if the player wins it displays a green border(positive) and if the computer wins its displays a red border(negative).
- - There is text that either congratulates the player or wishes them commiserations if they lose to the computer.
+ - There is text that either congratulates the player if they win or wishes them commiserations if they lose to the computer.
  - Below this text is a **Restart Game** button that has a dark background color with white text.
 
    
@@ -109,24 +110,25 @@ The color scheme that was used for this game was a light grey color for the back
 - - -
 
 ## Demo:
-Below is a demo video of the game working and also numbered 1 - 10 are each of the hands that were chosen by the player and the copmputer.
+Below is a demo video of the game working and also numbered 1 - 10 are each of the hands that were chosen by the player and the copmputer.  
 
-1. Player chose Rock and Computer chose Paper, so the computer scored a point. Score is 0 - 1 to the computer.
+Please note that I have added a **how to play** screen that displays before the game starts, this is not shown in the video below, and I have also changed the winner popup colour and style.  
+1. Player chose Rock and Computer chose Paper, so the Computer scored a point. Score is 0 - 1 to the Computer.
 2. Player chose Paper and Computer chose Rock, so the Player got a point. Score is now 1 - 1 which makes it even.
-3. Player chose Scissors and Computer chose Rock, so the computer scored a point. Score is now 1 - 2 to the computer.
-4. Player chose Paper and Computer chose Scissors, so the computer scored a point. Score is now 1- 3 to the computer.
+3. Player chose Scissors and Computer chose Rock, so the Computer scored a point. Score is now 1 - 2 to the Computer.
+4. Player chose Paper and Computer chose Scissors, so the Computer scored a point. Score is now 1- 3 to the Computer.
 5. Both the Player and Computer chose rock, so that hand was a tie and no-one scored a point.
-6. Player chose Paper and Computer chose Scissors, so the computer scored a point. Score is now 1- 4 to the computer.
+6. Player chose Paper and Computer chose Scissors, so the Computer scored a point. Score is now 1- 4 to the Computer.
 7. Both the Player and Computer chose Scissors, so that hand was a tie and no-one scored a point.
 8. Both the Player and Computer chose Paper, so that hand was a tie and no-one scored a point.
-9. Player chose Scissors and computer chose Rock, so the computer scores a point. That brings the score to 1- 5 which means the computer wins the game.
+9. Player chose Scissors and Computer chose Rock, so the Computer scores a point. That brings the score to 1- 5 which means the Computer wins the game.
 10. The restart button is then clicked to restart the game.  
 
 <video src = "https://user-images.githubusercontent.com/108360638/189951692-e71a608a-c1fa-4a51-a1e1-873a0f42d51f.mp4" controls></video>
 
 
 ## Future Features:
-The futuure features that I would Like to include are:
+The future features that I would Like to include are:
 - Before starting the Game a prompt for the user to enter their name.
 - Allow the user to select what the game is up to eg: 5, 10, 15.
 - The choice to play a multiplayer game with another person online.
@@ -141,35 +143,36 @@ The technologies that were used to create the game were:
 
 
 ## Testing:
-In order to make sure the Game was fully responsive and compatible with different devices and browsers, I tested the site on multiple browsers and devices. I also put the code throught Validators to make sure there were no major errors.
+In order to make sure the game was fully responsive and compatible with different devices and browsers, I tested the site on multiple browsers and devices. I also put the code throught validators to make sure there were no major errors.
 
-### Below is a list of devices that the Game was test on, with screenshots from each device.
+### Below is a list of devices that the game was test on, with screenshots from each device.
 
 
 - IPhone 11.   
 
- ![Ipone 11 test](readme-docs/images/iphone11.jpg) 
+![Ipone 11 test](readme-docs/images/iphone11.jpg) 
 
 - Samsung S8.  
 
- ![Samsung S8 test](readme-docs/images/s8.jpg) 
+![Samsung S8 test](readme-docs/images/s8.jpg) 
 
 - IPhone 7.  
 
- ![Iphone 7 test](readme-docs/images/iphone7.jpg) 
+![Iphone 7 test](readme-docs/images/iphone7.jpg) 
 
 - Ipad 7.  
 
- ![Ipad 7 test](readme-docs/images/ipad7.jpg) 
+![Ipad 7 test](readme-docs/images/ipad7.jpg) 
 
+- OnePlus 8 Pro
 
-- Amazon Fire.
+![OnePlus test](readme-docs/images/oneplus8.jpg)
 
-- Lambdatest was used to test on
-   * Samsung S20
-   * OnePlus Nord N100
+- Lambdatest was used to test on a Samsung s20
 
-### Below is a list of Browsers that the game was tested on, screenshots are also included.
+![S20 test](readme-docs/images/s20.PNG)
+
+### Below is a list of browsers that the game was tested on, screenshots are also included.
 
 - Google chrome  
 
@@ -183,14 +186,11 @@ In order to make sure the Game was fully responsive and compatible with differen
 
 ![Edge test](readme-docs/images/edge.png) 
 
-- Lambdatest was used to test on
-   * Brave 
-   * Opera 
-   * Safari
+
 
 ### Validator Testing
 **HTML**
-- The index page of the Game was put through the W3C Validator to check for any HTML syntax errors. The W3C Validator con be found [here](https://validator.w3.org/).
+- The index page of the game was put through the W3C validator to check for any HTML syntax errors. The W3C validator can be found [here](https://validator.w3.org/).
 - The result showed that there was no errors in the HTML markup as you can see from the screenshot of the results below.
   
  ![HTML Validator testing image of the site](readme-docs/images/html-error-check.PNG) 
@@ -205,13 +205,13 @@ In order to make sure the Game was fully responsive and compatible with differen
 ![CSS Validator testing image](readme-docs/images/css-error-check.PNG) 
 
 **JavaScript**
-- The Javascript file was put through Jshint code validator to see if there were any errors. Jshuint can be found [here](https://jshint.com/)
-- The validator returned no errors and one warning for having the variables declared outside the for loop, from reading online on Stack Overflow this is a common enough warning and does not    cause any issue. I also showed the it to my mentor and he said this can be ignored as it is just a warning.
+- The Javascript file was put through Jshint code validator to see if there were any errors. Jshint can be found [here](https://jshint.com/)
+- The validator returned no errors and one warning for having the variables declared outside the of for loop, from reading online this is a common enough warning and does not cause any issue. I also showed it to my mentor and he said this can be ignored as it is just a warning.
   
 ![Javascript validator](readme-docs/images/jshint-checker.PNG)  
 
 ### Lighthouse.
-- I used Lighthouse in Chrome Dev tools to generate a report that tests the sites Performance, Accessibility, Best practices and SEO.  
+- I used Lighthouse in Chrome Dev tools to generate a report that tests the sites Performance, Accessibility, Best Practices and SEO.  
   
 ![Lighthouse image](readme-docs/images/lighthouse.PNG) 
 
@@ -220,7 +220,7 @@ In order to make sure the Game was fully responsive and compatible with differen
 The site is deployed using github pages. The following steps were used to deploy the site to Github pages:
 - First make sure you are signed into Github.
 - In github on the sites repositiory, click on the **Settings** button.
-- On lefthand side menu. under **code and automation section** select **Pages**.
+- On lefthand side menu. under **Code and automation section** select **Pages**.
 - Under **Branch** section, change the dropdown that says **none** to **main**.
 - Then click **Save** and refresh the page, please note that it can take a few minutes for the site to be live.
 - - -
@@ -229,15 +229,15 @@ The site is deployed using github pages. The following steps were used to deploy
 ### Content
 - Web Dev Simplified video on youtube was a big help in how to structure the game. The Youtube video can be found [here](https://www.youtube.com/watch?v=1yS-JV4fWqY).
 - Code with Ania Kubow is a great resource for anyone who wants to create Rock, Paper, Scissors with JS as she takes you through 3 different ways to go about creating it, from beginner to advanced. This is a great resource as it gives you an idea on how to go about creating the game you want. The Youtube video can be found [here](https://www.youtube.com/watch?v=RwFeg0cEZvQ).
-- Geeksforgeeks.org have a great write up on how to create a Rock, Paper, Scissors game, this is  very good read as it goes through all the steps in details and after reading it will definitely help you with the creation of your game. The article can be found [here](https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/).
+- Geeksforgeeks.org have a great write up on how to create a Rock, Paper, Scissors game, this is a very good read as it goes through all the steps in details and after reading it will definitely help you with the creation of your game. The article can be found [here](https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/).
 - [Google Fonts ](https://fonts.google.com/) for the Typography used on the site.
-- w3Schools was great help for syntax that I could not remember and also for looking up new syntax, as their sandbox displays exactly what it does and allow syou to edit it to suit your needs. The website can be found [here](https://www.w3schools.com/).
+- W3Schools was great help for syntax that I could not remember and also for looking up new syntax, as their sandbox displays exactly what it does and allows you to edit it to suit your needs. The website can be found [here](https://www.w3schools.com/).
 
 ### Media
 - All the images for this site were taken from clipartmax website, The website can be found [here](https://www.clipartmax.com/).
 
 ## Acknowledgements:
 - I would like to thank my mentor Adegbenga Adeye for all help throughout the project and for being really positive about the course.
-- I would like to thank Code institutes Slack Communtiy as this helped me so much when I got stuck on part of my project and also with course challenges.
+- I would like to thank Code Institutes Slack Communtiy as this helped me so much when I got stuck on part of my project and also with course challenges.
 - I would also like to thank our chort facilitators Kenan Wright and Kasia Bogucka, for answering any course related questions I asked and for porviding us with a weekly study schedule.
 
