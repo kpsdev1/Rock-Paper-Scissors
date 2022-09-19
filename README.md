@@ -160,7 +160,7 @@ In order to make sure the Game was fully responsive and compatible with differen
 
 - Ipad 7.  
 
- ![chrome test](readme-docs/images/ipad7.jpg) 
+ ![Ipad 7 test](readme-docs/images/ipad7.jpg) 
 
 
 - Amazon Fire.
