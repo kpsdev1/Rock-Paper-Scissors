@@ -212,13 +212,22 @@ h3 {
        margin: 2% auto;
         
       }
+
+      .choice > img {
+        width: 13vw;
+        height: 22vh;
+      }
+
+      #userpic { 
+        padding-right: 29%;
+      }
       
       #game-players > p:nth-child(1){
-        padding-left: 5%;
+        padding-left: 1%;
       }
 
       #game-players > p:nth-child(2){
-        padding-right: 3%;
+        padding-right: 1%;
       }
 }
 /* For medium size screens */
