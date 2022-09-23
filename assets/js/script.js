@@ -17,8 +17,14 @@ document.addEventListener('DOMContentLoaded', () => {
     let rockBtn = document.getElementById('rock');
   	let paperBtn = document.getElementById('paper');
   	let scissorsBtn = document.getElementById('scissors');
-	let btn = document.getElementById('button1');
+	let btn = document.getElementById('start-button');
+	let hideBtn = document.querySelector('.btn-container');
+
 	startMsg.classList.add('show');
+	rockBtn.disabled = true;
+  	paperBtn.disabled = true;
+ 	scissorsBtn.disabled = true;
+	hideBtn.classList.add('hide');
 
 	function playGame() {
 		let buttons = document.getElementsByTagName('button');
@@ -134,6 +140,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		rockBtn.disabled = false;
 		paperBtn.disabled = false;
 		scissorsBtn.disabled = false;
+		hideBtn.classList.remove('hide');
 	}
 
 	playGame();
