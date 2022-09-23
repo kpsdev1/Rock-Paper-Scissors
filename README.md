@@ -150,7 +150,7 @@ In order to make sure the game was fully responsive and compatible with differen
 
 - IPhone 11.   
 
-![Ipone 11 test](readme-docs/images/iphone11.jpg) 
+![Ipone 11 test](readme-docs/images/iphone11board.jpg) 
 
 - Samsung S8.  
 
