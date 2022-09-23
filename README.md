@@ -143,21 +143,21 @@ The technologies that were used to create the game were:
 
 
 ## Testing:
-In order to make sure the game was fully responsive and compatible with different devices and browsers, I tested the site on multiple browsers and devices. I also put the code throught validators to make sure there were no major errors.
+In order to make sure the game was fully responsive and compatible with different devices and browsers, I tested the site on multiple browsers and devices. I also put the code throught validators to make sure there were no major errors. * Just to note that when using different devices in chrome dev tools the layout is not 100% accurate as when testing with some devices for example the iphone 7 the "How to play" screen looks different from how it actually looks on an Iphone 7, you will see from the real device screenshot below how it actually looks.
 
 ### Below is a list of devices that the game was test on, with screenshots from each device.
 
 
 - IPhone 11.   
-
-![Ipone 11 test](readme-docs/images/iphone11board.jpg) 
+![Ipone 11 home test](readme-docs/images/iphone11-home.PNG) 
+![Ipone 11 test](readme-docs/images/iphone11.PNG) 
 
 - Samsung S8.  
-
+![Samsung S8 home test](readme-docs/images/s8-home.jpg) 
 ![Samsung S8 test](readme-docs/images/s8.jpg) 
 
 - IPhone 7.  
-
+![Iphone 7 test](readme-docs/images/iphone7-home.jpg) 
 ![Iphone 7 test](readme-docs/images/iphone7.jpg) 
 
 - Ipad 7.  
