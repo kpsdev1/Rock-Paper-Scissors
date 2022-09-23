@@ -37,7 +37,7 @@ h1 {
   text-align: center;
 }
 
-#start-message > p{
+#start-message > p {
   padding: 0 10px;
 }
 
@@ -304,7 +304,7 @@ h3 {
   }
 
   #start-message > h2 {
-    margin-top: 2%;
+    margin-top: 1%;
   }
 
   .score-area {
