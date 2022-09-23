@@ -143,49 +143,49 @@ The technologies that were used to create the game were:
 
 
 ## Testing:
-In order to make sure the game was fully responsive and compatible with different devices and browsers, I tested the site on multiple browsers and devices. I also put the code throught validators to make sure there were no major errors. * Just to note that when using different devices in chrome dev tools the layout is not 100% accurate as when testing with some devices for example the iphone 7 the "How to play" screen looks different from how it actually looks on an Iphone 7, you will see from the real device screenshot below how it actually looks.
+In order to make sure the game was fully responsive and compatible with different devices and browsers, I tested the site on multiple browsers and devices. I also put the code throught validators to make sure there were no major errors. Just to note that when using different devices in chrome dev tools the layout is not 100% accurate as when testing with the same devices for example the iphone 7 the "How to play" screen looks different from how it actually looks on an Iphone 7, you will see from the real device screenshot below how it actually looks.
 
 ### Below is a list of devices that the game was test on, with screenshots from each device.
 
 
-- IPhone 11.   
+- **IPhone 11**   
 
 ![Ipone 11 home test](readme-docs/images/iphone11-home.PNG) 
 ![Ipone 11 test](readme-docs/images/iphone11.PNG) 
 
-- Samsung S8.  
+- **Samsung S8**  
 
 ![Samsung S8 home test](readme-docs/images/s8-home.jpg) 
 ![Samsung S8 test](readme-docs/images/s8.jpg) 
 
-- IPhone 7.  
+- **IPhone 7**  
 
 ![Iphone 7 test](readme-docs/images/iphone7-home.jpg) 
 ![Iphone 7 test](readme-docs/images/iphone7.jpg) 
 
-- Ipad 7.  
+- **Ipad 7** 
 
 ![Ipad 7 test](readme-docs/images/ipad7.jpg) 
 
-- OnePlus 8 Pro
+- **OnePlus 8 Pro**
 
 ![OnePlus test](readme-docs/images/oneplus8.jpg)
 
-- Lambdatest was used to test on a Samsung s20
+- **Lambdatest was used to test on a Samsung s20.**
 
 ![S20 test](readme-docs/images/s20.PNG)
 
 ### Below is a list of browsers that the game was tested on, screenshots are also included.
 
-- Google chrome  
+- **Google chrome**  
 
  ![chrome test](readme-docs/images/chrome.png)   
 
-- Mozilla Firefox
+- **Mozilla Firefox**
 
 ![FireFox test](readme-docs/images/firefox.png) 
 
-- Microsoft Edge
+- **Microsoft Edge**
 
 ![Edge test](readme-docs/images/edge.png) 
 
