@@ -297,9 +297,10 @@ h3 {
 
 @media screen and (max-width: 420px) {
   #start-message.show {
-    margin-top: 2%;
+    margin-top: 2px;
     width: 90%;
     font-size: 1em;
+    height: 96%;
   }
 
   .score-area {
@@ -329,7 +330,7 @@ h3 {
   }
 
   #winnerMessage > p {
-    padding-top: 12%;
+    padding-top: 5%;
   }
 }
 
