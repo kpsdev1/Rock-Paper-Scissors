@@ -14,7 +14,10 @@ document.addEventListener('DOMContentLoaded', () => {
 	let computerScore = 0;
 	let resetBtn = messageDiv.querySelector('button');
 	let startMsg = document.getElementById('start-message');
-	let btn = document.getElementById('button1')
+    let rockBtn = document.getElementById('rock');
+  	let paperBtn = document.getElementById('paper');
+  	let scissorsBtn = document.getElementById('scissors');
+	let btn = document.getElementById('button1');
 	startMsg.classList.add('show');
 
 	function playGame() {
@@ -99,10 +102,16 @@ document.addEventListener('DOMContentLoaded', () => {
 		if(playerScore === 5) {
 			messageDiv.classList.add('show');
 			messageDiv.querySelector('p').innerText = 'Congratulations you won!!!';
+			rockBtn.disabled = true;
+			paperBtn.disabled = true;
+			scissorsBtn.disabled = true;
 		}
 		if(computerScore === 5) {
 			messageDiv.classList.add('show','lose');
 			messageDiv.querySelector('p').innerText = 'Commiserations, you lost!!!';
+			rockBtn.disabled = true;
+			paperBtn.disabled = true;
+			scissorsBtn.disabled = true;
 		}
 	}
 	/**
@@ -122,7 +131,11 @@ document.addEventListener('DOMContentLoaded', () => {
 		userHand = '';
 		messageDiv.classList.remove('show','lose');
 		startMsg.classList.remove('show');
+		rockBtn.disabled = false;
+		paperBtn.disabled = false;
+		scissorsBtn.disabled = false;
 	}
+
 	playGame();
 	resetBtn.addEventListener('click', resetGame);
 	btn.addEventListener('click', resetGame);
