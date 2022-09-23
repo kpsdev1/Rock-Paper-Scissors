@@ -149,14 +149,17 @@ In order to make sure the game was fully responsive and compatible with differen
 
 
 - IPhone 11.   
+
 ![Ipone 11 home test](readme-docs/images/iphone11-home.PNG) 
 ![Ipone 11 test](readme-docs/images/iphone11.PNG) 
 
 - Samsung S8.  
+
 ![Samsung S8 home test](readme-docs/images/s8-home.jpg) 
 ![Samsung S8 test](readme-docs/images/s8.jpg) 
 
 - IPhone 7.  
+
 ![Iphone 7 test](readme-docs/images/iphone7-home.jpg) 
 ![Iphone 7 test](readme-docs/images/iphone7.jpg) 
 
