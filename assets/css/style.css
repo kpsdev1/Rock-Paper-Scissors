@@ -300,7 +300,12 @@ h3 {
     margin-top: 2px;
     width: 90%;
     font-size: 1em;
-    height: 96%;
+    height: 98%;
+  }
+
+  #start-message > h2 {
+    margin-top: 3%;
+    
   }
 
   .score-area {
