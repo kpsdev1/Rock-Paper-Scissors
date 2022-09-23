@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
+	// declaring variables
 	let computerSelections = ['rock', 'paper', 'scissors'];
 	let computerHand;
 	let userHand;
@@ -26,6 +27,10 @@ document.addEventListener('DOMContentLoaded', () => {
  	scissorsBtn.disabled = true;
 	hideBtn.classList.add('hide');
 
+	/**
+	 * This is the main function which loops through the buttons and adds an event listner, depending on which button is clicked the UserHand is set and then the computerHand is chosen randomely(computerSelection), 
+     * then the functions are called to check the winner of the round(checkWinner) and change the hand selection images(updateDom) and then check the score to see if 5  point is reached(checkScore)
+	 */
 	function playGame() {
 		let buttons = document.getElementsByTagName('button');
 		for(let button of buttons) {
@@ -103,7 +108,9 @@ document.addEventListener('DOMContentLoaded', () => {
 			computerImage.src = 'assets/images/scissors.png';
 		}
 	}
-
+	/**
+	 * Function to check who has won by reaching the score of 5 and display winning popup.
+	 */
 	function checkScore() {
 		if(playerScore === 5) {
 			messageDiv.classList.add('show');
@@ -142,8 +149,10 @@ document.addEventListener('DOMContentLoaded', () => {
 		scissorsBtn.disabled = false;
 		hideBtn.classList.remove('hide');
 	}
-
+    // calling the playgame function
 	playGame();
+
+	// adding event listeners to the start game and reset game buttons, so that they reset all defaults when clicked
 	resetBtn.addEventListener('click', resetGame);
 	btn.addEventListener('click', resetGame);
 });
