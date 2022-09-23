@@ -297,15 +297,14 @@ h3 {
 
 @media screen and (max-width: 420px) {
   #start-message.show {
-    margin-top: 2px;
+    margin-top: 0;
     width: 90%;
     font-size: 1em;
     height: 98%;
   }
 
   #start-message > h2 {
-    margin-top: 3%;
-    
+    margin-top: 2%;
   }
 
   .score-area {
