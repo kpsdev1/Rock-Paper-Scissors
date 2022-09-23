@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	let playerScore = 0;
 	let computerScore = 0;
 	let resetBtn = messageDiv.querySelector('button');
-	let startMsg = document.getElementById('start-message');
+    let startMsg = document.getElementById('start-message');
     let rockBtn = document.getElementById('rock');
   	let paperBtn = document.getElementById('paper');
   	let scissorsBtn = document.getElementById('scissors');
@@ -28,8 +28,11 @@ document.addEventListener('DOMContentLoaded', () => {
 	hideBtn.classList.add('hide');
 
 	/**
-	 * This is the main function which loops through the buttons and adds an event listner, depending on which button is clicked the UserHand is set and then the computerHand is chosen randomely(computerSelection), 
-     * then the functions are called to check the winner of the round(checkWinner) and change the hand selection images(updateDom) and then check the score to see if 5  point is reached(checkScore)
+	 * This is the main function which loops through the buttons and adds an event listner, 
+	 * depending on which button is clicked the UserHand is set and then the computerHand 
+	 * is chosen randomely(computerSelection), then the functions are called to check the 
+	 * winner of the round(checkWinner) and change the hand selection images(updateDom) 
+	 * and then check the score to see if 5  point is reached(checkScore).
 	 */
 	function playGame() {
 		let buttons = document.getElementsByTagName('button');
