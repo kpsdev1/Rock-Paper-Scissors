@@ -14,9 +14,10 @@ This is a simple Rock, Paper, Scissors game which I built with HTML, CSS and Jav
 4. [Future Features](#future-features)
 5. [Technologies Used](#technologies-used)
 6. [Testing](#testing)
-7. [Deployment](#deployment)
-8. [Credits](#credits)
-9. [Acknowledgements](#acknowledgements)
+7. [Bugs](#bugs)
+8. [Deployment](#deployment)
+9. [Credits](#credits)
+10. [Acknowledgements](#acknowledgements)
 
 ## UX Design:
 
@@ -221,9 +222,9 @@ In order to make sure the game was fully responsive and compatible with differen
 
 ## Bugs:
 - When the **How to play** pop up screen was showing, the Rock Paper and Scissors button could still be clicked when viewing on a laptop or larger screen. To fix this I created a hide class
-which set the display to none for the button container, this was then toggled on when the page loaded and then once the **Start Game** button was clicked the the hide class is removed.
+  which set the display to none for the button container, this was then toggled on when the page loaded and then once the **Start Game** button was clicked the the hide class is removed.
 - When the winner pop up was displayed, the Rock, Paper and Scissors buttons were still able to be clicked so the user could keep adding points past the desired score of 5. To rectify this
-when the score reached 5 I have set the buttons to be disabled so if you click on them no points are added and nothing happens untill the next game is started.
+  when the score reached 5 I have set the buttons to be disabled so if you click on them no points are added and nothing happens untill the next game is started.
 
 ## Deployment:
 The site is deployed using github pages. The following steps were used to deploy the site to Github pages:
@@ -237,7 +238,7 @@ The site is deployed using github pages. The following steps were used to deploy
 ## Credits:
 ### Content
 - Web Dev Simplified video on youtube was a big help in how to structure the game. The Youtube video can be found [here](https://www.youtube.com/watch?v=1yS-JV4fWqY).
-- Code with Ania Kubow youtube video is a great resource for anyone who wants to create Rock, Paper, Scissors with JS as she takes you through 3 different ways to go about creating it, from beginner to advanced. This is a great resource as it gave me an idea on how to go about creating the game I wanted. The Youtube video can be found [here](https://www.youtube.com/watch?v=RwFeg0cEZvQ).
+- Code with Ania Kubow youtube video is a great resource for anyone who wants to create Rock, Paper, Scissors with JS as she takes you through 3 different ways to go about creating it, from   beginner to advanced. This is a great resource as it gave me an idea on how to go about creating the game I wanted. The Youtube video can be found [here](https://www.youtube.com/watch?v=RwFeg0cEZvQ).
 - Geeksforgeeks.org have a great write up on how to create a Rock, Paper, Scissors game, this is a very good read as it goes through all the steps in details and after reading the article it definitely helped me with the creation of my game. The article can be found [here](https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/).
 - [Google Fonts ](https://fonts.google.com/) for the Typography used on the site.
 - W3Schools was great help for syntax that I could not remember and also for looking up new syntax, as their sandbox displays exactly what it does and allows you to edit it to suit your needs. The website can be found [here](https://www.w3schools.com/).
