@@ -22,13 +22,13 @@ This is a simple Rock, Paper, Scissors game which I built with HTML, CSS and Jav
 
 ### User Stories
 - As a user, I want to be able to figure out what the game is.
-- As a user, I want to be easily be able to understand how to play the game.
+- As a user, I want to easily be able to understand how to play the game.
 - As a user, I want to know what  score the game is up too.
 - As a user, I want to be able to easily navigate through the game.
 - As a user, I want the score to be easily visible so I can clearly see who is winning.
 
 ### Wireframes
-Below are the wireframes for the Rock, Paper, Scissors game for both destop and mobile devices.  
+Below are the wireframes for the Rock, Paper, Scissors game for both destop and mobile devices. The wireframes were designed using the Balsamiq.
   
  **Desktop Design**   
 
@@ -43,7 +43,7 @@ Below are the wireframes for the Rock, Paper, Scissors game for both destop and 
 
 ### Typography
 The font that was used for this game was **Allerta Stencil**.  
-The font that was used for the readme was **Athiti**.
+The font that was used for the instructions screen was **Athiti**.
 
 ### Color Scheme
 The color scheme that was used for this game was a light grey color for the background and the text is black, which really makes the text and images stand out. The users score displays in green and the computers score displays in red which in this context would show the user that the green score is positive and red is negatative.
@@ -59,20 +59,20 @@ The color scheme that was used for this game was a light grey color for the back
 - When the user wants to play a game they can just click the **Start Game** button and this will allow them to start the game, when the **Start Game** button is hovered over the
  button background color changes to black and the text to white.
    
- ![Instructions and rules](readme-docs/images/rules.png)       
+![Instructions and rules](readme-docs/images/rules.png)       
 
 ### Logo and Score
 - At the top of the page is the Logo that tells the first time user what the game is by saying **"Lets Play a Game of Rock, Paper, Scissors"**
-- Beneath this is the game score area, this keeps count of the user and the computers score.
-- The users score is displayed in green which is positive, each time the player wins the round the score is incremented by 1. The higher the green score the better.
-- The Computers score is displayed in red which in this context is negative as each time the computer wins a round the score is also incremented by 1.
+- Beneath this is the game score area, this keeps count of the player and the computers score.
+- The players score is displayed in green which is positive, each time the player wins the round the score is incremented by 1. The higher the green score the better.
+- The computers score is displayed in red which in this context is negative as each time the computer wins a round the score is also incremented by 1.
 - The first to reach the score of 5 wins.
 - Below the score area is a light horizontal line that spans 40% of the page and is centered.
 
-![Logo and Score area image](readme-docs/images/Logo-score.PNG)     
+![Logo and Score area image](readme-docs/images/Logo-score.png)     
 
 ### Round Winner
-- This section is right below the score counting area and displays the winner of the round or if both the player and computer chose the same hand it will say **Tie**
+- This section is right below the score counting area and displays the winner of the round or if both the player and computer choose the same hand it will say **Tie**
 - Below it is a horizontal line that spans 80% of the page and is centered. 
   
 ![winner of the round image](readme-docs/images/winner-of-round.png) 
@@ -131,7 +131,7 @@ Please note that I have added a **how to play** screen that displays before the 
 The future features that I would Like to include are:
 - Before starting the Game a prompt for the user to enter their name.
 - Allow the user to select what the game is up to eg: 5, 10, 15.
-- The choice to play a multiplayer game with another person online.
+- The choice to play a multiplayer game with another random person online.
 
 
 ## Technologies Used:
@@ -143,15 +143,15 @@ The technologies that were used to create the game were:
 
 
 ## Testing:
-In order to make sure the game was fully responsive and compatible with different devices and browsers, I tested the site on multiple browsers and devices. I also put the code throught validators to make sure there were no major errors. Just to note that when using different devices in chrome dev tools the layout is not 100% accurate as when testing with the same devices for example the iphone 7 the "How to play" screen looks different from how it actually looks on an Iphone 7, you will see from the real device screenshot below how it actually looks.
+In order to make sure the game was fully responsive and compatible with different devices and browsers, I tested the site on multiple browsers and devices. I also put the code throught validators to make sure there were no major errors. Just to note that when using different devices in Chrome dev tools the layout is not 100% accurate as when testing with the same devices for example the iphone 7 the "How to play" screen looks different from how it actually looks on an Iphone 7, you will see from the real device screenshot below how it actually looks.
 
 ### Below is a list of devices that the game was test on, with screenshots from each device.
 
 
 - **IPhone 11**   
 
-![Ipone 11 home test](readme-docs/images/iphone11-home.PNG) 
-![Ipone 11 test](readme-docs/images/iphone11.PNG) 
+![Ipone 11 home test](readme-docs/images/iphone11-home.png) 
+![Ipone 11 test](readme-docs/images/iphone11.png) 
 
 - **Samsung S8**  
 
@@ -196,7 +196,7 @@ In order to make sure the game was fully responsive and compatible with differen
 - The index page of the game was put through the W3C validator to check for any HTML syntax errors. The W3C validator can be found [here](https://validator.w3.org/).
 - The result showed that there was no errors in the HTML markup as you can see from the screenshot of the results below.
   
- ![HTML Validator testing image of the site](readme-docs/images/html-error-check.PNG) 
+ ![HTML Validator testing image of the site](readme-docs/images/html-error-check.png) 
 
 [Back to the top](#rock-paper-scissors)
 - - -
@@ -205,19 +205,25 @@ In order to make sure the game was fully responsive and compatible with differen
  - The CSS stylesheet was put through the W3C Jiqsaw validator to see if there was any errors. The W3C Jiqsaw validator can be found [here](https://jigsaw.w3.org/css-validator/).
  - As you can see from the screenshot of the result below there were no errors.
    
-![CSS Validator testing image](readme-docs/images/css-error-check.PNG) 
+![CSS Validator testing image](readme-docs/images/css-error-check.png) 
 
 **JavaScript**
 - The Javascript file was put through Jshint code validator to see if there were any errors. Jshint can be found [here](https://jshint.com/)
 - The validator returned no errors and one warning for having the variables declared outside the of for loop, from reading online this is a common enough warning and does not cause any issue. I also showed it to my mentor and he said this can be ignored as it is just a warning.
   
-![Javascript validator](readme-docs/images/jshint-checker.PNG)  
+![Javascript validator](readme-docs/images/jshint-checker.png)  
 
 ### Lighthouse.
 - I used Lighthouse in Chrome Dev tools to generate a report that tests the sites Performance, Accessibility, Best Practices and SEO.  
   
-![Lighthouse image](readme-docs/images/lighthouse.PNG) 
+![Lighthouse image](readme-docs/images/lighthouse.png) 
 
+
+## Bugs:
+- When the **How to play** pop up screen was showing, the Rock Paper and Scissors button could still be clicked when viewing on a laptop or larger screen. To fix this I created a hide class
+which set the display to none for the button container, this was then toggled on when the page loaded and then once the **Start Game** button was clicked the the hide class is removed.
+- When the winner pop up was displayed, the Rock, Paper and Scissors buttons were still able to be clicked so the user could keep adding points past the desired score of 5. To rectify this
+when the score reached 5 I have set the buttons to be disabled so if you click on them no points are added and nothing happens untill the next game is started.
 
 ## Deployment:
 The site is deployed using github pages. The following steps were used to deploy the site to Github pages:
@@ -231,8 +237,8 @@ The site is deployed using github pages. The following steps were used to deploy
 ## Credits:
 ### Content
 - Web Dev Simplified video on youtube was a big help in how to structure the game. The Youtube video can be found [here](https://www.youtube.com/watch?v=1yS-JV4fWqY).
-- Code with Ania Kubow is a great resource for anyone who wants to create Rock, Paper, Scissors with JS as she takes you through 3 different ways to go about creating it, from beginner to advanced. This is a great resource as it gives you an idea on how to go about creating the game you want. The Youtube video can be found [here](https://www.youtube.com/watch?v=RwFeg0cEZvQ).
-- Geeksforgeeks.org have a great write up on how to create a Rock, Paper, Scissors game, this is a very good read as it goes through all the steps in details and after reading it will definitely help you with the creation of your game. The article can be found [here](https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/).
+- Code with Ania Kubow youtube video is a great resource for anyone who wants to create Rock, Paper, Scissors with JS as she takes you through 3 different ways to go about creating it, from beginner to advanced. This is a great resource as it gave me an idea on how to go about creating the game I wanted. The Youtube video can be found [here](https://www.youtube.com/watch?v=RwFeg0cEZvQ).
+- Geeksforgeeks.org have a great write up on how to create a Rock, Paper, Scissors game, this is a very good read as it goes through all the steps in details and after reading the article it definitely helped me with the creation of my game. The article can be found [here](https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/).
 - [Google Fonts ](https://fonts.google.com/) for the Typography used on the site.
 - W3Schools was great help for syntax that I could not remember and also for looking up new syntax, as their sandbox displays exactly what it does and allows you to edit it to suit your needs. The website can be found [here](https://www.w3schools.com/).
 
