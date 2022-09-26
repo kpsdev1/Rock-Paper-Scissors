@@ -144,7 +144,7 @@ The technologies that were used to create the game were:
 
 
 ## Testing:
-In order to make sure the game was fully responsive and compatible with different devices and browsers, I tested the site on multiple browsers and devices. I also put the code throught validators to make sure there were no major errors. Just to note that when using different devices in Chrome dev tools the layout is not 100% accurate as when testing with the same devices for example the iphone 7 the "How to play" screen looks different from how it actually looks on an Iphone 7, you will see from the real device screenshot below how it actually looks. Also I have also added Rock, Paper and Scissors text under each of the images in the **Choose Your Hand** section which is not displayed in the screenshots below as I had already gotten all the screenshots before adding the text.
+In order to make sure the game was fully responsive and compatible with different devices and browsers, I tested the site on multiple browsers and devices. I also put the code throught validators to make sure there were no major errors. Just to note that when using different devices in Chrome dev tools the layout is not 100% accurate as when testing with the same devices for example the iphone 7 the "How to play" screen looks different from how it actually looks on an Iphone 7, you will see from the real device screenshot below how it actually looks. Also I have added Rock, Paper and Scissors text under each of the images in the **Choose Your Hand** section which is not displayed in the screenshots below as I had already gotten all the screenshots before adding the text.
 
 ### Below is a list of devices that the game was test on, with screenshots from each device.
 
