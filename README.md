@@ -111,9 +111,9 @@ The color scheme that was used for this game was a light grey color for the back
 - - -
 
 ## Demo:
-Below is a demo video of the game working and also numbered 1 - 10 are each of the hands that were chosen by the player and the copmputer.  
+Below is a demo video of the game working and also numbered 1 - 10 are each of the hands that were chosen by the player and the computer.  
 
-Please note that I have added a **how to play** screen that displays before the game starts, this is not shown in the video below, and I have also changed the winner popup colour and style.  
+Please note that I have added a **how to play** screen that displays before the game starts, this is not shown in the video below, and I have also changed the winner popup colour and style. I have also added Rock Paper and Scissors text under each of the images in the **Choose Your Hand** section.
 1. Player chose Rock and Computer chose Paper, so the Computer scored a point. Score is 0 - 1 to the Computer.
 2. Player chose Paper and Computer chose Rock, so the Player got a point. Score is now 1 - 1 which makes it even.
 3. Player chose Scissors and Computer chose Rock, so the Computer scored a point. Score is now 1 - 2 to the Computer.
@@ -144,9 +144,10 @@ The technologies that were used to create the game were:
 
 
 ## Testing:
-In order to make sure the game was fully responsive and compatible with different devices and browsers, I tested the site on multiple browsers and devices. I also put the code throught validators to make sure there were no major errors. Just to note that when using different devices in Chrome dev tools the layout is not 100% accurate as when testing with the same devices for example the iphone 7 the "How to play" screen looks different from how it actually looks on an Iphone 7, you will see from the real device screenshot below how it actually looks.
+In order to make sure the game was fully responsive and compatible with different devices and browsers, I tested the site on multiple browsers and devices. I also put the code throught validators to make sure there were no major errors. Just to note that when using different devices in Chrome dev tools the layout is not 100% accurate as when testing with the same devices for example the iphone 7 the "How to play" screen looks different from how it actually looks on an Iphone 7, you will see from the real device screenshot below how it actually looks. Also I have also added Rock, Paper and Scissors text under each of the images in the **Choose Your Hand** section which is not displayed in the screenshots below as I had already gotten all the screenshots before adding the text.
 
 ### Below is a list of devices that the game was test on, with screenshots from each device.
+
 
 
 - **IPhone 11**   
