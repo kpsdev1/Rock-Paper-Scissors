@@ -57,13 +57,14 @@ The color scheme that was used for this game was a light grey color for the back
 ### How to Play
 - The game instructions are displayed once the game loads and it is the first thing that the user sees.
 - Here the user will learn how to play the game and see the rules of Rock, Paper, Scissors.
+- I have set the overflow to scroll so that if a user has their Windows display scale settings turned up above the normal 100% then it overflow will still be inside the border.
 - When the user wants to play a game they can just click the **Start Game** button and this will allow them to start the game, when the **Start Game** button is hovered over the
  button background color changes to black and the text to white.
    
 ![Instructions and rules](readme-docs/images/rules.png)       
 
-### Logo and Score
-- At the top of the page is the Logo that tells the first time user what the game is by saying **"Lets Play a Game of Rock, Paper, Scissors"**
+### Heading and Score
+- At the top of the page is a h1 heading that tells the first time user what the game is by saying **"Lets Play a Game of Rock, Paper, Scissors"**
 - Beneath this is the game score area, this keeps count of the player and the computers score.
 - The players score is displayed in green which is positive, each time the player wins the round the score is incremented by 1. The higher the green score the better.
 - The computers score is displayed in red which in this context is negative as each time the computer wins a round the score is also incremented by 1.
@@ -82,7 +83,7 @@ The color scheme that was used for this game was a light grey color for the back
 - This is the section that displays an image of the hand choosen by both the player and computer. Before the game starts both the users and computers hand are set to images of a question mark.
 - Once the user selects a hand it will display the matching image choice on the left hand side, at the same time a random choice will also be chosen for the computer and the matching image will be displayed on the right side.
 - Above the image it will say  both the player and computers choice.
-- The player and computer hand choice images are seperated by a light colored vertical line.
+- The player and computers hand choice images are seperated by a light colored vertical line.
 - Below the images is a black horizontal line that spans 60vw and is centered.
 
 ![hand selection images](readme-docs/images/hand-choice.png) 
@@ -113,12 +114,12 @@ The color scheme that was used for this game was a light grey color for the back
 ## Demo:
 Below is a demo video of the game working and also numbered 1 - 10 are each of the hands that were chosen by the player and the computer.  
 
-Please note that I have added a **how to play** screen that displays before the game starts, this is not shown in the video below, and I have also changed the winner popup colour and style. I have also added Rock Paper and Scissors text under each of the images in the **Choose Your Hand** section.
+Please note that I have added a **how to play** screen that displays before the game starts, this is not shown in the video below, and I have changed the winner popup colour and style. I have also added Rock Paper and Scissors text under each of the images in the **Choose Your Hand** section.
 1. Player chose Rock and Computer chose Paper, so the Computer scored a point. Score is 0 - 1 to the Computer.
 2. Player chose Paper and Computer chose Rock, so the Player got a point. Score is now 1 - 1 which makes it even.
 3. Player chose Scissors and Computer chose Rock, so the Computer scored a point. Score is now 1 - 2 to the Computer.
 4. Player chose Paper and Computer chose Scissors, so the Computer scored a point. Score is now 1- 3 to the Computer.
-5. Both the Player and Computer chose rock, so that hand was a tie and no-one scored a point.
+5. Both the Player and Computer chose Rock, so that hand was a tie and no-one scored a point.
 6. Player chose Paper and Computer chose Scissors, so the Computer scored a point. Score is now 1- 4 to the Computer.
 7. Both the Player and Computer chose Scissors, so that hand was a tie and no-one scored a point.
 8. Both the Player and Computer chose Paper, so that hand was a tie and no-one scored a point.
@@ -132,7 +133,8 @@ Please note that I have added a **how to play** screen that displays before the 
 The future features that I would Like to include are:
 - Before starting the Game a prompt for the user to enter their name.
 - Allow the user to select what the game is up to eg: 5, 10, 15.
-- The choice to play a multiplayer game with another random person online.
+- The choice to play a multiplayer game with another random person online.(although this may be very hard to implement)
+
 
 
 ## Technologies Used:
@@ -144,7 +146,7 @@ The technologies that were used to create the game were:
 
 
 ## Testing:
-In order to make sure the game was fully responsive and compatible with different devices and browsers, I tested the site on multiple browsers and devices. I also put the code throught validators to make sure there were no major errors. Just to note that when using different devices in Chrome dev tools the layout is not 100% accurate as when testing with the same devices for example the iphone 7 the "How to play" screen looks different from how it actually looks on an Iphone 7, you will see from the real device screenshot below how it actually looks. Also I have added Rock, Paper and Scissors text under each of the images in the **Choose Your Hand** section which is not displayed in the screenshots below as I had already gotten all the screenshots before adding the text.
+In order to make sure the game was fully responsive and compatible with different devices and browsers, I tested the site on multiple browsers and devices. I also put the code throught validators to make sure there were no major errors. Just to note that when using different devices in Chrome dev tools the layout is not 100% accurate as when testing with the same devices for example the IPhone 7 the "How to play" screen looks different from how it actually looks on an Iphone 7, you will see from the real device screenshots below, that show how it actually looks. Also I have added Rock, Paper and Scissors text under each of the images in the **Choose Your Hand** section which is not displayed in the screenshots below as I had already gotten all the screenshots before adding the text.
 
 ### Below is a list of devices that the game was test on, with screenshots from each device.
 
@@ -157,7 +159,8 @@ In order to make sure the game was fully responsive and compatible with differen
 
 - **Samsung S8**  
 
-![Samsung S8 home test](readme-docs/images/s8-home.jpg) 
+![Samsung S8 home test](readme-docs/images/s8-home.jpg)   
+
 ![Samsung S8 test](readme-docs/images/s8.jpg) 
 
 - **IPhone 7**  
@@ -176,6 +179,13 @@ In order to make sure the game was fully responsive and compatible with differen
 - **Lambdatest was used to test on a Samsung s20.**
 
 ![S20 test](readme-docs/images/s20.PNG)
+
+-**I also ested the site on**
+  * Dell Inspiron Gaming Laptop
+  * Dell S2722DC Screen
+  * Dell S2722DC
+  * Dell Latitude 5420
+  * Amazon fire
 
 ### Below is a list of browsers that the game was tested on, screenshots are also included.
 
