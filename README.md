@@ -180,7 +180,7 @@ In order to make sure the game was fully responsive and compatible with differen
 
 ![S20 test](readme-docs/images/s20.PNG)
 
--**I also ested the site on**
+- **I also tested the site on**
   * Dell Inspiron Gaming Laptop
   * Dell S2722DC Screen
   * Dell S2722DC
