@@ -221,7 +221,7 @@ In order to make sure the game was fully responsive and compatible with differen
 
 **JavaScript**
 - The Javascript file was put through Jshint code validator to see if there were any errors. Jshint can be found [here](https://jshint.com/)
-- The validator returned no errors and one warning for having the variables declared outside the of for loop, from reading online this is a common enough warning and does not cause any issue. I also showed it to my mentor and he said this can be ignored as it is just a warning.
+- The validator returned no errors and one warning for having the variables declared outside of the for loop, from reading online this is a common enough warning and does not cause any issue. I also showed it to my mentor and he said this can be ignored as it is just a warning.
   
 ![Javascript validator](readme-docs/images/jshint-checker.png)  
 
@@ -232,7 +232,7 @@ In order to make sure the game was fully responsive and compatible with differen
 
 
 ## Bugs:
-- When the **How to play** pop up screen was showing, the Rock Paper and Scissors button could still be clicked when viewing on a laptop or larger screen. To fix this I created a hide class
+- When the **How to Play** pop up screen was showing, the Rock, Paper and Scissors button could still be clicked when viewing on a laptop or larger screen. To fix this I created a hide class
   which set the display to none for the button container, this was then toggled on when the page loaded and then once the **Start Game** button was clicked the the hide class is removed.
 - When the winner pop up was displayed, the Rock, Paper and Scissors buttons were still able to be clicked so the user could keep adding points past the desired score of 5. To rectify this
   when the score reached 5 I have set the buttons to be disabled so if you click on them no points are added and nothing happens untill the next game is started.
