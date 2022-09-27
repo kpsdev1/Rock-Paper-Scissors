@@ -66,7 +66,7 @@ h1 {
   color: white;
 }
 
-/* This is the score area which is update when a user wins a round */
+/* This is the score area which is updated when a user or computer wins a round */
 .score-area {
   font-size: 1.4em;
   display: flex;
@@ -99,7 +99,7 @@ h1 {
   color: green;
 }
 
-/* This is the section where the choice section where it shows and image of both player and computer choices */
+/* This is the choice section where it shows an image of both player and computer choices */
 #game-players {
   width: 55%;
   margin: 0 auto;
@@ -166,7 +166,7 @@ h3 {
   text-align: center;
 }
 
-/* Winner message that displays When the game is over */
+/* Winner message that displays when the game is over */
 #winnerMessage {
   display: none;
 }
@@ -305,7 +305,7 @@ h3 {
     padding-top: 10%;
   }
 }
-
+/* Media queries for mobiles */
 @media screen and (max-width: 420px) {
   #start-message.show {
     margin-top: 0;
