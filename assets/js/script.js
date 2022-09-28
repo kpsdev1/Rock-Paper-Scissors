@@ -29,8 +29,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	/**
 	 * This is the main function which loops through the buttons and adds an event listner, 
-	 * depending on which button is clicked the UserHand is set and then the computerHand 
-	 * is chosen randomely(computerSelection), then the functions are called to check the 
+	 * depending on which button is clicked the userHand is set and then the computerHand 
+	 * is chosen randomly(computerSelection), then the functions are called to check the 
 	 * winner of the round(checkWinner) and change the hand selection images(updateDom) 
 	 * and then check the score to see if 5  point is reached(checkScore).
 	 */
