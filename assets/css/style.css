@@ -202,8 +202,9 @@ h3 {
     border-radius: 5%;
     padding: 2%;
     background-color: #2a2b2a;
-    margin: 0 auto;
+    margin: 0 auto 10px;
     color: white;
+   
 }
 
 #winnerMessage > button:hover {
