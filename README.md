@@ -131,7 +131,7 @@ Please note that I have added a **how to play** screen that displays before the 
 
 ## Future Features:
 The future features that I would Like to include are:
-- Before starting the Game a prompt for the user to enter their name.
+- Before starting the game a prompt for the user to enter their name.
 - Allow the user to select what the game is up to eg: 5, 10, 15.
 - The choice to play a multiplayer game with another random person online.(although this may be very hard to implement)
 
@@ -162,7 +162,7 @@ In order to make sure the game was fully responsive and compatible with differen
   
 
 - **Samsung S8**  
-
+ 
 ![Samsung S8 home test](readme-docs/images/s8-home.jpg)   
 
 ![Samsung S8 test](readme-docs/images/s8.jpg) 
@@ -188,13 +188,15 @@ In order to make sure the game was fully responsive and compatible with differen
 
 ![S20 test](readme-docs/images/s20.PNG)
   
-  
+
 - **I also tested the site on**
   * Dell Inspiron Gaming Laptop
   * Dell S2722DC Screen
   * Dell S2722DC
   * Dell Latitude 5420
   * Amazon fire
+- - -
+
 
 ### Below is a list of browsers that the game was tested on, screenshots are also included.
 
