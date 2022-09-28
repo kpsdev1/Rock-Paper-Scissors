@@ -139,10 +139,13 @@ The future features that I would Like to include are:
 
 ## Technologies Used:
 The technologies that were used to create the game were:
-- Balsamiq was used to create the wireframes.
-- HTML was used for the mark up.
-- CSS was used to style the game
-- JavaScript was used to make the game interactive.
+- [Balsamiq](https://en.wikipedia.org/wiki/Balsamiq) was used to create the wireframes.
+- [HTML](https://en.wikipedia.org/wiki/HTML) was used for the mark up.
+- [CSS](https://en.wikipedia.org/wiki/CSS)  was used to style the game
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript) was used to make the game interactive.
+- [Gitpod](https://www.gitpod.io/about) was used to create this site and then push everything to github.
+- [Visual Studio Code](https://en.wikipedia.org/wiki/Visual_Studio_Code) was used to work on the site locally.
+- [Github](https://en.wikipedia.org/wiki/GitHub) is used to host this site.
 
 
 ## Testing:
@@ -156,30 +159,36 @@ In order to make sure the game was fully responsive and compatible with differen
 
 ![Ipone 11 home test](readme-docs/images/iphone11-home.png) 
 ![Ipone 11 test](readme-docs/images/iphone11.png) 
+  
 
 - **Samsung S8**  
 
 ![Samsung S8 home test](readme-docs/images/s8-home.jpg)   
 
 ![Samsung S8 test](readme-docs/images/s8.jpg) 
+  
 
 - **IPhone 7**  
 
 ![Iphone 7 test](readme-docs/images/iphone7-home.jpg) 
 ![Iphone 7 test](readme-docs/images/iphone7.jpg) 
+  
 
 - **Ipad 7** 
 
 ![Ipad 7 test](readme-docs/images/ipad7.jpg) 
+  
 
 - **OnePlus 8 Pro**
 
 ![OnePlus test](readme-docs/images/oneplus8.jpg)
+  
 
 - **Lambdatest was used to test on a Samsung s20.**
 
 ![S20 test](readme-docs/images/s20.PNG)
-
+  
+  
 - **I also tested the site on**
   * Dell Inspiron Gaming Laptop
   * Dell S2722DC Screen
