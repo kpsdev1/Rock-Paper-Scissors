@@ -185,6 +185,8 @@ h3 {
   width: 60%;
   height: 25%;
   font-size: 1.5em;
+  overflow:scroll;
+  overflow-x:hidden;
 }
 
 #winnerMessage.lose {
