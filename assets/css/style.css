@@ -54,10 +54,9 @@ h1 {
 #start-message > button {
   border-radius: 5%;
   padding: 2%;
-  margin-bottom: 10px;
   background-color: #b8b8b9;
   display: flex;
-  margin: 0 auto;
+  margin: 0 auto 10px;
 }
 
 #start-message > button:hover {
